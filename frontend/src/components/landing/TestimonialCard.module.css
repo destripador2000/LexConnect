@@ -1,0 +1,30 @@
+.card {
+  background-color: var(--surface-container);
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--border-color);
+}
+
+.rating {
+  display: flex;
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+.star {
+  font-size: 1.25rem;
+}
+
+.content {
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  line-height: 1.625;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+.author {
+  font-weight: 500;
+  color: var(--text-main);
+  font-size: 0.875rem;
+}
