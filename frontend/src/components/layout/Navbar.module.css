@@ -1,0 +1,79 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 5%;
+  background-color: transparent;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--text-heading);
+  letter-spacing: -0.5px;
+}
+
+/* Actualiza las clases relacionadas al toggle */
+.themeToggle {
+  background: none;
+  border: none;
+  color: var(--text-heading);
+  cursor: pointer;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.themeToggle:hover {
+  background-color: var(--border-color);
+  /* Rotación sutil y aumento de tamaño */
+  transform: rotate(15deg) scale(1.1);
+}
+
+.themeToggle:active {
+  transform: scale(0.9);
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  /* Transición elástica para cuando cambia el SVG (Sol/Luna) */
+  transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* Al presionar, el ícono se encoge para luego rebotar con la transición superior */
+.themeToggle:active .icon {
+  transform: scale(0.5);
+}
+
+.logoLink {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  position: relative;
+  height: 48px;
+  width: 200px;
+}
+
+.logoImage {
+  position: absolute;
+  height: 240px;
+  /* El tamaño grande para compensar el lienzo invisible */
+  width: auto;
+  object-fit: contain;
+  transition: filter 0.3s ease;
+
+  /* Centrado vertical perfecto dentro de su contenedor de 48px */
+  top: 50%;
+  left: -20px;
+  /* Lo movemos un poco a la izquierda para alinear la balanza */
+  transform: translateY(-50%);
+}
+
+/* El pseudo-selector para cuando el HTML tiene el tema oscuro */
+[data-theme='dark'] .logoImage {
+  filter: brightness(0) invert(1);
+}
