@@ -1,8 +1,11 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import layoutStyles from '../../styles/Landing.module.css';
 import styles from './HeroSection.module.css';
 
 export const HeroSection: React.FC = () => {
+  const navigate = useNavigate();
+
   return (
     <section className={layoutStyles.heroSection} style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuBOh8NUKhk9z366-Mb6MahEKcbDwUl9eaL39hQDfyFEf61XT5eqZFudDpzOGH2df3kgnJk5hfowfEcrVoE04B7wSd5_cCXx7k-yssKFBAXezEe6WjHEMuz5nuEXcgPscwjww2qaITuz8kCcqgv9KxtGjEHsLhuwb5AExgRr0Ts9nJL13CqDhb-C75FMPIdbFjmJ1lFFP0W2KCZ6xY7Td4HMCP6iKepahXnsJ-SqtzBnYQuXd8rx9QH5F9awCpK2MMi9Ioqi6_CQrPCj')" }}>
       <div className={layoutStyles.heroOverlay}></div>
@@ -22,7 +25,7 @@ export const HeroSection: React.FC = () => {
           </p>
           
           <div className={styles.heroButtons}>
-            <button className={styles.primaryButton}>
+            <button className={styles.primaryButton} onClick={() => navigate('/directorio')}>
               Explorar el directorio
               <span className="material-symbols-outlined icon" style={{ fontSize: '16px' }}>search</span>
             </button>

@@ -9,8 +9,6 @@ interface FeatureCardProps {
   linkText: string;
   href: string;
   marginTopClass?: string;
-  iconBgClass: string;
-  iconColorClass: string;
 }
 
 export const FeatureCard: React.FC<FeatureCardProps> = ({

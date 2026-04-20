@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import layoutStyles from '../../styles/Landing.module.css';
 import styles from './Header.module.css';
 
 export const Header: React.FC = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const navigate = useNavigate();
 
   return (
     <header className={layoutStyles.header}>
@@ -14,7 +16,7 @@ export const Header: React.FC = () => {
         </a>
 
         <nav className={layoutStyles.desktopNav}>
-          <button className={styles.ctaButton}>
+          <button className={styles.ctaButton} onClick={() => navigate('/directorio')}>
             Explorar el directorio
             <span className="material-symbols-outlined" style={{ fontSize: '14px' }}>arrow_forward</span>
           </button>
@@ -29,7 +31,7 @@ export const Header: React.FC = () => {
 
       {isMobileMenuOpen && (
         <div className={layoutStyles.mobileDropdown}>
-          <button className={styles.ctaButton}>
+          <button className={styles.ctaButton} onClick={() => navigate('/directorio')}>
             Explorar el directorio
             <span className="material-symbols-outlined" style={{ fontSize: '14px' }}>arrow_forward</span>
           </button>
