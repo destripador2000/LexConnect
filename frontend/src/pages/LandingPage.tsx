@@ -4,7 +4,8 @@ import { Footer } from '../components/layout/Footer';
 import { HeroSection } from '../components/landing/HeroSection';
 import { FeatureCard } from '../components/landing/FeatureCard';
 import { TestimonialCard } from '../components/landing/TestimonialCard';
-import styles from '../styles/Landing.module.css';
+import layoutStyles from '../styles/Landing.module.css';
+import pageStyles from '../styles/LandingPage.module.css';
 
 const features = [
   {
@@ -14,8 +15,6 @@ const features = [
     linkText: 'Ver cómo funciona',
     href: '#',
     marginTopClass: '',
-    iconBgClass: '',
-    iconColorClass: ''
   },
   {
     icon: 'schedule',
@@ -24,8 +23,6 @@ const features = [
     linkText: 'Explorar filtros',
     href: '#',
     marginTopClass: 'md:mt-12',
-    iconBgClass: '',
-    iconColorClass: ''
   },
   {
     icon: 'gavel',
@@ -34,8 +31,6 @@ const features = [
     linkText: 'Nuestra misión',
     href: '#',
     marginTopClass: 'md:mt-24',
-    iconBgClass: '',
-    iconColorClass: 'secondary'
   }
 ];
 
@@ -48,20 +43,20 @@ const testimonials = [
 
 export const LandingPage: React.FC = () => {
   return (
-    <div style={{ backgroundColor: 'var(--surface)', color: 'var(--text-main)', minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+    <div className={pageStyles.pageContainer}>
       <Header />
       
-      <main style={{ flexGrow: 1 }}>
+      <main className={layoutStyles.mainContent}>
         <HeroSection />
         
-        <section className={styles.section}>
-          <div className={styles.sectionInner}>
-            <div style={{ textAlign: 'center', maxWidth: '42rem', margin: '0 auto 4rem' }}>
-              <h2 style={{ fontSize: '2.25rem', fontWeight: 500, color: 'var(--text-main)', marginBottom: '1rem' }}>Por qué elegir LexConnect</h2>
-              <p style={{ fontSize: '1.125rem', color: 'var(--text-muted)' }}>Diseñado para simplificar la búsqueda legal, brindando acceso a la justicia de manera rápida y segura.</p>
+        <section className={layoutStyles.section}>
+          <div className={layoutStyles.sectionInner}>
+            <div className={layoutStyles.sectionCenter}>
+              <h2 className={layoutStyles.sectionTitle}>Por qué elegir LexConnect</h2>
+              <p className={layoutStyles.sectionSubtitle}>Diseñado para simplificar la búsqueda legal, brindando acceso a la justicia de manera rápida y segura.</p>
             </div>
             
-            <div className={styles.featureGrid}>
+            <div className={layoutStyles.featureGrid}>
               {features.map((feature, index) => (
                 <FeatureCard key={index} {...feature} />
               ))}
@@ -69,23 +64,23 @@ export const LandingPage: React.FC = () => {
           </div>
         </section>
 
-        <section style={{ padding: '6rem 1.5rem', backgroundColor: 'var(--surface-container)', borderTop: '1px solid var(--border-color)', borderBottom: '1px solid var(--border-color)' }}>
-          <div style={{ maxWidth: '56rem', margin: '0 auto', textAlign: 'center' }}>
-            <h2 style={{ fontSize: '1.875rem', fontWeight: 500, color: 'var(--text-main)', marginBottom: '2rem' }}>
+        <section className={layoutStyles.missionSection}>
+          <div className={layoutStyles.missionContainer}>
+            <h2 className={layoutStyles.missionTitle}>
               ¿Cuál es la misión de LexConnect?
             </h2>
-            <p style={{ fontSize: '1.125rem', color: 'var(--text-muted)', lineHeight: 1.625 }}>
+            <p className={layoutStyles.missionText}>
               Nuestra misión es democratizar el acceso a la justicia en Nicaragua. Brindamos una plataforma digital centralizada y transparente que conecta de manera rápida y segura a las personas con el profesional legal adecuado para sus necesidades, eliminando barreras y fomentando la confianza en el sistema.
             </p>
           </div>
         </section>
 
-        <section className={styles.section}>
-          <div className={styles.sectionInner}>
-            <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
-              <h2 style={{ fontSize: '1.875rem', fontWeight: 500, color: 'var(--text-main)' }}>Lo que dicen nuestros usuarios</h2>
+        <section className={layoutStyles.section}>
+          <div className={layoutStyles.sectionInner}>
+            <div className={layoutStyles.sectionCenter}>
+              <h2 className={layoutStyles.sectionTitle}>Lo que dicen nuestros usuarios</h2>
             </div>
-            <div className={styles.testimonialsGrid}>
+            <div className={layoutStyles.testimonialsGrid}>
               {testimonials.map((testimonial, index) => (
                 <TestimonialCard key={index} {...testimonial} />
               ))}
