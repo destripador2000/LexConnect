@@ -1,0 +1,11 @@
+.pageContainer {
+  background-color: var(--surface);
+  color: var(--text-main);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainContent {
+  flex-grow: 1;
+}
