@@ -52,7 +52,7 @@ export const LandingPage: React.FC = () => {
         <section className={layoutStyles.section}>
           <div className={layoutStyles.sectionInner}>
             <div className={layoutStyles.sectionCenter}>
-              <h2 className={layoutStyles.sectionTitle}>Por qué elegir LexConnect</h2>
+              <h2 className={layoutStyles.sectionTitle}>¿Por qué elegir LexConnect?</h2>
               <p className={layoutStyles.sectionSubtitle}>Diseñado para simplificar la búsqueda legal, brindando acceso a la justicia de manera rápida y segura.</p>
             </div>
             

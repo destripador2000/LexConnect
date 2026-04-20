@@ -1,6 +1,7 @@
 :root {
   --primary: #003084;
   --primary-hover: #1a47a8;
+  --primary-container: #1a47a8;
   --on-primary: #ffffff;
   --surface: #f8f9fb;
   --surface-container: #ffffff;
@@ -9,6 +10,8 @@
   --surface-container-high: #E8E8E8;
   --text-main: #191c1e;
   --text-muted: #434652;
+  --on-surface: #191c1e;
+  --on-surface-variant: #434652;
   --border-color: rgba(196, 198, 212, 0.2);
   --shadow-ambient: 0 20px 40px -10px rgba(25, 28, 30, 0.08);
   --secondary-container: #74F8DC;
@@ -16,6 +19,9 @@
   --radius-lg: 0.5rem;
   --radius-xl: 0.75rem;
   --font-serif: 'Georgia', serif;
+  --font-headline: 'Newsreader', serif;
+  --font-body: 'Manrope', sans-serif;
+  --blue-900: #0f172a;
 }
 
 *, *::before, *::after {

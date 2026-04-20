@@ -7,7 +7,8 @@ export const HeroSection: React.FC = () => {
   const navigate = useNavigate();
 
   return (
-    <section className={layoutStyles.heroSection} style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuBOh8NUKhk9z366-Mb6MahEKcbDwUl9eaL39hQDfyFEf61XT5eqZFudDpzOGH2df3kgnJk5hfowfEcrVoE04B7wSd5_cCXx7k-yssKFBAXezEe6WjHEMuz5nuEXcgPscwjww2qaITuz8kCcqgv9KxtGjEHsLhuwb5AExgRr0Ts9nJL13CqDhb-C75FMPIdbFjmJ1lFFP0W2KCZ6xY7Td4HMCP6iKepahXnsJ-SqtzBnYQuXd8rx9QH5F9awCpK2MMi9Ioqi6_CQrPCj')" }}>
+    <section className={layoutStyles.heroSection}>
+      <div className={layoutStyles.heroBackground} style={{ backgroundImage: "url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1920&q=80')" }}></div>
       <div className={layoutStyles.heroOverlay}></div>
       <div className={layoutStyles.heroContent}>
         <div className={styles.heroInner}>

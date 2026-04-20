@@ -69,6 +69,15 @@
   background-position: center;
 }
 
+.heroBackground {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px);
+  z-index: 0;
+}
+
 .heroOverlay {
   position: absolute;
   inset: 0;
@@ -202,4 +211,17 @@
 
 @media (min-width: 1024px) {
   .testimonialsGrid { grid-template-columns: repeat(4, 1fr); }
+}
+
+.footer { background: #f8fafc; width: 100%; padding: 3rem 1.5rem; border-top: 1px solid rgba(226, 232, 240, 0.2); }
+.footerContainer { display: flex; justify-content: space-between; align-items: center; max-width: 1280px; margin: 0 auto; }
+.footerBrandText { font: 700 1.125rem/1 var(--font-headline); color: var(--blue-900); margin: 0 0 0.5rem; }
+.footerCopyright { font-size: 0.875rem; color: #475569; margin: 0; }
+.footerNav { display: flex; gap: 2rem; }
+.footerLink { font-size: 0.875rem; letter-spacing: 0.025em; text-transform: uppercase; text-decoration: underline; text-underline-offset: 4px; transition: opacity 0.2s; }
+.footerLinkPrimary { color: var(--blue-900); }
+.footerLinkSecondary { color: #475569; }
+
+@media (max-width: 768px) {
+  .footerContainer { flex-direction: column; gap: 1.5rem; }
 }
