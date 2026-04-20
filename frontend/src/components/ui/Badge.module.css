@@ -1,0 +1,18 @@
+.badge {
+  background-color: var(--surface-container-high);
+  color: #36485b;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.primary {
+  background-color: var(--primary);
+  color: var(--on-primary);
+}
+
+.secondary {
+  background-color: var(--secondary-container);
+  color: var(--secondary);
+}
