@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import styles from '../../styles/Directory.module.css';
 import type { Lawyer } from '../../data/lawyers';
 
@@ -7,6 +8,8 @@ interface Props {
 }
 
 export const LawyerCard: React.FC<Props> = ({ lawyer }) => {
+  const navigate = useNavigate();
+
   return (
     <div className={styles.card}>
       <div className={styles.cardImgWrapper}>
@@ -27,7 +30,10 @@ export const LawyerCard: React.FC<Props> = ({ lawyer }) => {
           </span>
           <span>{lawyer.location}</span>
         </div>
-        <button className={styles.cardBtn}>
+        <button 
+          className={styles.cardBtn}
+          onClick={() => navigate(`/perfil/${lawyer.id}`)}
+        >
           Ver Perfil
         </button>
       </div>
