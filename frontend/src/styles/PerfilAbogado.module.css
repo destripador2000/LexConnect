@@ -30,7 +30,7 @@
   border-radius: 0.75rem;
   overflow: hidden;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 364 / 288;
 }
 
 @media (min-width: 1024px) {
@@ -43,6 +43,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center top;
 }
 
 .infoWrapper {
@@ -389,14 +390,6 @@
   border-radius: 0.5rem;
   margin-bottom: 1rem;
   overflow: hidden;
-  filter: grayscale(100%);
-}
-
-.mapImage {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0.5;
 }
 
 .addressText {
