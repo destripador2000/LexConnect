@@ -144,11 +144,15 @@ export const LawyerProfile: React.FC = () => {
             <div className={styles.sidebarBoxWhite}>
               <h3 className={styles.sidebarTitle}>Ubicación</h3>
               <div className={styles.mapWrapper}>
-                <img 
-                  src={data.mapaUrl} 
-                  alt="Mapa de ubicación" 
-                  className={styles.mapImage} 
-                />
+                <iframe
+                  src={data.mapaUrl}
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
               </div>
               <p className={styles.addressText}>
                 <span className="material-symbols-outlined" style={{ color: '#003084', fontSize: '18px' }}>
