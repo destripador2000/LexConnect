@@ -8,19 +8,26 @@ export const Header: React.FC = () => {
   const navigate = useNavigate();
 
   return (
-    <header className={layoutStyles.header}>
-      <div className={layoutStyles.headerContainer}>
-        <a href="#" className={styles.logoLink}>
-          <span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>gavel</span>
-          LexConnect NI
-        </a>
+    <header className={styles.header}>
+      <div className={styles.headerContainer}>
+        <div className={layoutStyles.brandWrapper}>
+          <a href="/" className={styles.brand}>
+            <span className={`material-symbols-outlined ${styles.iconFilled}`}>gavel</span>
+            LexConnect NI
+          </a>
+        </div>
 
-        <nav className={layoutStyles.desktopNav}>
-          <button className={styles.ctaButton} onClick={() => navigate('/directorio')}>
-            Explorar el directorio
-            <span className="material-symbols-outlined" style={{ fontSize: '14px' }}>arrow_forward</span>
-          </button>
+        <nav className={styles.nav}>
+          <a href="/" className={`${styles.navLink} ${styles.navLinkActive}`}>Inicio</a>
+          <a href="/directorio" className={styles.navLink}>Directorio</a>
         </nav>
+
+        <div className={layoutStyles.actionWrapper}>
+          <button className={styles.actionBtn} onClick={() => navigate('/directorio')}>
+            Explorar el directorio
+            <span className={`material-symbols-outlined ${styles.btnIcon}`}>arrow_forward</span>
+          </button>
+        </div>
 
         <button className={layoutStyles.mobileMenuBtn} onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
           <span className="material-symbols-outlined">
@@ -31,9 +38,11 @@ export const Header: React.FC = () => {
 
       {isMobileMenuOpen && (
         <div className={layoutStyles.mobileDropdown}>
-          <button className={styles.ctaButton} onClick={() => navigate('/directorio')}>
+          <a href="/" className={`${styles.navLink} ${styles.navLinkActive}`}>Inicio</a>
+          <a href="/directorio" className={styles.navLink}>Directorio</a>
+          <button className={styles.actionBtn} onClick={() => navigate('/directorio')}>
             Explorar el directorio
-            <span className="material-symbols-outlined" style={{ fontSize: '14px' }}>arrow_forward</span>
+            <span className={`material-symbols-outlined ${styles.btnIcon}`}>arrow_forward</span>
           </button>
         </div>
       )}
