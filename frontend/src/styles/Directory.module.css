@@ -159,6 +159,9 @@
   .nav, .actionBtn {
     display: flex;
   }
+  .mobileMenuBtn, .mobileDropdown {
+    display: none;
+  }
 }
 
 /* ================= HERO & FILTERS ================= */

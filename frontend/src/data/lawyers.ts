@@ -13,7 +13,7 @@ export const lawyers: Lawyer[] = [
     name: 'Dra. Elena Castellón',
     specialty: 'Derecho Civil',
     location: 'Managua, Nicaragua',
-    imageUrl: 'https://lh3.googleusercontent.com/a/AGFY',
+    imageUrl: 'https://universidadeuropea.com/resources/media/images/shutterstock_2343004253_1.width-640.jpg',
     imageAlt: 'Retrato de.abogada'
   },
   {
@@ -21,7 +21,7 @@ export const lawyers: Lawyer[] = [
     name: 'Dr. Ricardo Mendoza',
     specialty: 'Derecho Penal',
     location: 'León, Nicaragua',
-    imageUrl: 'https://lh3.googleusercontent.com/a/AGFY',
+    imageUrl: 'https://img.freepik.com/fotos-premium/libros-legales-retrato-sonrisa-e-investigacion-abogados-bufete-abogados-administracion-oficina-feliz-o-estudio-aprendizaje-justicia-conocimiento-asesor-financiero-educacion-abogado-o-consultor-hombre-gobierno-mexico_590464-155792.jpg',
     imageAlt: 'Retrato de.abogado'
   },
   {
@@ -29,7 +29,7 @@ export const lawyers: Lawyer[] = [
     name: 'Dra. María Fernanda López',
     specialty: 'Derecho Familiar',
     location: 'Managua, Nicaragua',
-    imageUrl: 'https://lh3.googleusercontent.com/a/AGFY',
+    imageUrl: 'https://www.unir.net/wp-content/uploads/2018/03/shutterstock_653652001.jpg',
     imageAlt: 'Retrato de.abogada'
   },
   {
@@ -37,7 +37,7 @@ export const lawyers: Lawyer[] = [
     name: 'Dr. Carlos Javier Ruiz',
     specialty: 'Derecho Corporativo',
     location: 'Granada, Nicaragua',
-    imageUrl: 'https://lh3.googleusercontent.com/a/AGFY',
+    imageUrl: 'https://esotopa.com/wp-content/uploads/2023/11/Soto-528x621-1.png',
     imageAlt: 'Retrato de.abogado'
   },
   {
@@ -45,7 +45,7 @@ export const lawyers: Lawyer[] = [
     name: 'Dra. Ana Patricia Vega',
     specialty: 'Derecho Laboral',
     location: 'Managua, Nicaragua',
-    imageUrl: 'https://lh3.googleusercontent.com/a/AGFY',
+    imageUrl: 'https://media.istockphoto.com/id/1587604256/es/foto/retrato-abogada-y-mujer-negra-con-tablet-sonrisa-y-feliz-en-la-oficina-del-lugar-de-trabajo.jpg?s=612x612&w=0&k=20&c=jyalE8Zgyk_86i4JGA6MCh2LQ0xkYvckGi24O0-ecGg=',
     imageAlt: 'Retrato de.abogada'
   },
   {
@@ -53,7 +53,7 @@ export const lawyers: Lawyer[] = [
     name: 'Dr. José Antonio Morales',
     specialty: 'Derecho Mercantil',
     location: 'Masaya, Nicaragua',
-    imageUrl: 'https://lh3.googleusercontent.com/a/AGFY',
+    imageUrl: 'https://www.abogados.com/sites/default/files/styles/_750px_x_500px_/public/2026-04/shutterstock_2722448341.jpg?itok=2nJO8WxY',
     imageAlt: 'Retrato de.abogado'
   }
 ];

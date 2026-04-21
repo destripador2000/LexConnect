@@ -5,7 +5,6 @@ import { LawyerCard } from '../components/lawyer/LawyerCard';
 import { FilterBar } from '../components/lawyer/FilterBar';
 import { HeaderDirectory } from '../components/layout/HeaderDirectory';
 import { Footer } from '../components/layout/Footer';
-import { BottomNav } from '../components/layout/BottomNav';
 
 export const DirectoryPage: React.FC = () => {
   return (
@@ -50,7 +49,6 @@ export const DirectoryPage: React.FC = () => {
         </section>
       </main>
       <Footer />
-      <BottomNav />
     </>
   );
 };
