@@ -37,7 +37,7 @@ export const lawyers: Lawyer[] = [
     name: 'Dr. Carlos Javier Ruiz',
     specialty: 'Derecho Corporativo',
     location: 'Granada, Nicaragua',
-    imageUrl: 'https://esotopa.com/wp-content/uploads/2023/11/Soto-528x621-1.png',
+    imageUrl: 'https://asistencialegalinmediata.com/wp-content/uploads/2024/06/precio-abogado-oficio-juicio-rapido.jpg',
     imageAlt: 'Retrato de.abogado'
   },
   {
