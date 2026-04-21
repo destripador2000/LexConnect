@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { getPerfilAbogado } from '../../data/lawyers';
+import { getPerfilAbogado } from '../../data/perfiles';
 import { Header } from '../layout/Header';
 import { Footer } from '../layout/Footer';
 import styles from '../../styles/PerfilAbogado.module.css';

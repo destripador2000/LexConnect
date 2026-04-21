@@ -7,32 +7,6 @@ export interface Lawyer {
   imageAlt: string;
 }
 
-export interface Educacion {
-  id: string;
-  nivel: string;
-  titulo: string;
-  institucion: string;
-  honores?: string;
-  isPrimary?: boolean;
-}
-
-export interface AbogadoPerfilData {
-  id: string;
-  nombre: string;
-  especialidadPrincipal: string;
-  ubicacion: string;
-  descripcionCorta: string;
-  biografia: string[];
-  experienciaAnios: number;
-  tarifaBase: number;
-  moneda: string;
-  fotoUrl: string;
-  fotoAlt: string;
-  especialidadesSecundarias: string[];
-  educacion: Educacion[];
-  mapaUrl: string;
-}
-
 export const lawyers: Lawyer[] = [
   {
     id: '1',
@@ -81,208 +55,103 @@ export const lawyers: Lawyer[] = [
     location: 'Masaya, Nicaragua',
     imageUrl: 'https://www.abogados.com/sites/default/files/styles/_750px_x_500px_/public/2026-04/shutterstock_2722448341.jpg?itok=2nJO8WxY',
     imageAlt: 'Retrato de.abogado'
+  },
+  {
+    id: '7',
+    name: 'Dr. Luis Fernando García',
+    specialty: 'Derecho Civil',
+    location: 'León, Nicaragua',
+    imageUrl: 'https://www.garridoydonaque.com/wp-content/uploads/2024/07/abogado-de-empresa.jpg',
+    imageAlt: 'Retrato de.abogado'
+  },
+  {
+    id: '8',
+    name: 'Dra. Carmen Dolores Ruiz',
+    specialty: 'Derecho Penal',
+    location: 'Managua, Nicaragua',
+    imageUrl: 'https://ss-cnt-001c.esmsv.com/r/content/host1/04c93e93c16ee5a8cdb8368abcf47968//editor/estudio-juridico-panizo-abogada-mar-del-plata.webp',
+    imageAlt: 'Retrato de.abogada'
+  },
+  {
+    id: '9',
+    name: 'Dr. Marco Antonio Sevilla',
+    specialty: 'Derecho Mercantil',
+    location: 'Managua, Nicaragua',
+    imageUrl: 'https://mexico.unir.net/wp-content/uploads/sites/6/2021/03/abogado-litigante.jpg',
+    imageAlt: 'Retrato de.abogado'
+  },
+  {
+    id: '10',
+    name: 'Dra. Sofia Isabella Vargas',
+    specialty: 'Derecho Familiar',
+    location: 'Granada, Nicaragua',
+    imageUrl: 'https://www.habanaabogados.es/wp-content/uploads/2025/11/HABANA-ABOGADOS-11-scaled.jpg',
+    imageAlt: 'Retrato de.abogada'
+  },
+  {
+    id: '11',
+    name: 'Dr. Fernando José Picado',
+    specialty: 'Derecho Corporativo',
+    location: 'Managua, Nicaragua',
+    imageUrl: 'https://www.ambitojuridico.com/sites/default/files/styles/imagen_800x400/public/abogado-derecho-juristabig1.jpg.webp?itok=GQfDxm1A',
+    imageAlt: 'Retrato de.abogado'
+  },
+  {
+    id: '12',
+    name: 'Dra. Patricia Yaneth Corea',
+    specialty: 'Derecho Laboral',
+    location: 'León, Nicaragua',
+    imageUrl: 'https://mariarosagarcia.es/wp-content/uploads/2014/04/Maria-Rosa-Garc%C3%ADa-Abogada-Puerto-Lumbreras.jpg',
+    imageAlt: 'Retrato de.abogada'
+  },
+  {
+    id: '13',
+    name: 'Dr. Alejandro José Meza',
+    specialty: 'Derecho Civil',
+    location: 'Granada, Nicaragua',
+    imageUrl: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400',
+    imageAlt: 'Retrato de.abogado'
+  },
+  {
+    id: '14',
+    name: 'Dra. Ingrid María Blandón',
+    specialty: 'Derecho Penal',
+    location: 'Masaya, Nicaragua',
+    imageUrl: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=400',
+    imageAlt: 'Retrato de.abogada'
+  },
+  {
+    id: '15',
+    name: 'Dr. Roberto Carlos Alfaro',
+    specialty: 'Derecho Mercantil',
+    location: 'León, Nicaragua',
+    imageUrl: 'https://clippingrrpp.com/wp-content/uploads/2018/06/abogado-junior-despacho.jpg',
+    imageAlt: 'Retrato de.abogado'
+  },
+  {
+    id: '16',
+    name: 'Dra. Melissa Janeth López',
+    specialty: 'Derecho Familiar',
+    location: 'Masaya, Nicaragua',
+    imageUrl: 'https://www.lawandtrends.com/files/post/imagencabecera/201337/680x452_MUJER%20ABOGADA.jpg',
+    imageAlt: 'Retrato de.abogada'
+  },
+  {
+    id: '17',
+    name: 'Dr. Diego Fernando Montoya',
+    specialty: 'Derecho Corporativo',
+    location: 'Masaya, Nicaragua',
+    imageUrl: 'https://altalegal.com/wp-content/uploads/2023/04/870x576px_Foto_Web_ALTA-Nuevos-CRMariano-Bata.png',
+    imageAlt: 'Retrato de.abogado'
+  },
+  {
+    id: '18',
+    name: 'Dra. Brenda Yadira Sequeira',
+    specialty: 'Derecho Laboral',
+    location: 'Granada, Nicaragua',
+    imageUrl: 'https://www.shutterstock.com/image-photo/portrait-beautiful-young-business-woman-600nw-2481341233.jpg',
+    imageAlt: 'Retrato de.abogada'
   }
 ];
 
 export const featuredLawyers = lawyers;
-
-export const perfilesAbogados: AbogadoPerfilData[] = [
-  {
-    id: '1',
-    nombre: 'Dra. Elena Castellón',
-    especialidadPrincipal: 'Derecho Civil',
-    ubicacion: 'Managua, Nicaragua',
-    descripcionCorta: 'Abogada especializada con más de 15 años de experiencia en resolución de conflictos civiles.',
-    biografia: [
-      'La Dra. Elena Castellón es una destacada profesional del derecho civil con más de 15 años de trayectoria en Nicaragua.',
-      'Ha representado exitosamente a cientos de clientes en casos de divorcios, disputas patrimoniales y reclamaciones legales.',
-      'Su enfoque humanista y meticuloso la ha convertido en una de las attorneys más recomendadas de Managua.'
-    ],
-    experienciaAnios: 15,
-    tarifaBase: 150,
-    moneda: 'USD',
-    fotoUrl: 'https://universidadeuropea.com/resources/media/images/shutterstock_2343004253_1.width-640.jpg',
-    fotoAlt: 'Retrato de la Dra. Elena Castellón',
-    especialidadesSecundarias: ['Derecho de Familia', 'Derecho Contractual'],
-    educacion: [
-      {
-        id: 'e1',
-        nivel: 'Universidad',
-        titulo: 'Licenciatura en Derecho',
-        institucion: 'Universidad Centroamericana (UCA)',
-        honores: 'Mención Honorífica',
-        isPrimary: true
-      },
-      {
-        id: 'e2',
-        nivel: 'Maestría',
-        titulo: 'Maestría en Derecho Civil',
-        institucion: 'Universidad de Navarra España',
-        honores: 'Diploma de Excelencia'
-      }
-    ],
-    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3748.717885409375!2d-86.251!3d12.115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1'
-  },
-  {
-    id: '2',
-    nombre: 'Dr. Ricardo Mendoza',
-    especialidadPrincipal: 'Derecho Penal',
-    ubicacion: 'León, Nicaragua',
-    descripcionCorta: 'Abogado penalista con amplia experiencia en procesos judiciales complejos.',
-    biografia: [
-      'El Dr. Ricardo Mendoza es un reconocido penalista con más de 12 años de experiencia en el sistema judicial Nicaragüense.',
-      'Se ha especializado en la defensa de casos complejos y ha obtenido resultados favorables en múltiples audiencias.',
-      'Su trayectoria incluye haber defendido casos de alto impacto mediático en la región.'
-    ],
-    experienciaAnios: 12,
-    tarifaBase: 200,
-    moneda: 'USD',
-    fotoUrl: 'https://img.freepik.com/fotos-premium/libros-legales-retrato-sonrisa-e-investigacion-abogados-bufete-abogados-administracion-oficina-feliz-o-estudio-aprendizaje-justicia-conocimiento-asesor-financiero-educacion-abogado-o-consultor-hombre-gobierno-mexico_590464-155792.jpg',
-    fotoAlt: 'Retrato del Dr. Ricardo Mendoza',
-    especialidadesSecundarias: ['Derecho Mercantil', 'Derecho Constitutional'],
-    educacion: [
-      {
-        id: 'e1',
-        nivel: 'Universidad',
-        titulo: 'Licenciatura en Derecho',
-        institucion: 'Universidad Nacional Autónoma de Nicaragua (UNAN)',
-        isPrimary: true
-      },
-      {
-        id: 'e2',
-        nivel: 'Especialización',
-        titulo: 'Especialización en Derecho Penal',
-        institucion: 'Instituto de Estudios Superiores (INES)'
-      }
-    ],
-    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3748.717885409375!2d-86.878!3d12.398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1'
-  },
-  {
-    id: '3',
-    nombre: 'Dra. María Fernanda López',
-    especialidadPrincipal: 'Derecho Familiar',
-    ubicacion: 'Managua, Nicaragua',
-    descripcionCorta: 'Especialista en derecho de familia con enfoque en mediación y custodia.',
-    biografia: [
-      'La Dra. María Fernanda López es una profesional dedicada al derecho de familia con más de 10 años de experiencia.',
-      'Ha ayudado a numerosas familias a resolver conflictos de custodia y divorcios de manera疏导.',
-      'Su compromiso con el bienestar infantil la distingue en su práctica profesional.'
-    ],
-    experienciaAnios: 10,
-    tarifaBase: 120,
-    moneda: 'USD',
-    fotoUrl: 'https://www.unir.net/wp-content/uploads/2018/03/shutterstock_653652001.jpg',
-    fotoAlt: 'Retrato de la Dra. María Fernanda López',
-    especialidadesSecundarias: ['Derecho Civil', 'Mediación Familiar'],
-    educacion: [
-      {
-        id: 'e1',
-        nivel: 'Universidad',
-        titulo: 'Licenciatura en Derecho',
-        institucion: 'Universidad Centroamericana (UCA)',
-        isPrimary: true
-      }
-    ],
-    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3748.717885409375!2d-86.251!3d12.115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1'
-  },
-  {
-    id: '4',
-    nombre: 'Dr. Carlos Javier Ruiz',
-    especialidadPrincipal: 'Derecho Corporativo',
-    ubicacion: 'Granada, Nicaragua',
-    descripcionCorta: 'Asesor legal empresarial especializado en mergers y adquisiciones.',
-    biografia: [
-      'El Dr. Carlos Javier Ruiz cuenta con más de 18 años de experiencia en derecho corporativo.',
-      'Ha asesorado a múltiples empresas nacionales e internacionales en procesos de fusión y adquisición.',
-      'Su expertise en regulación empresarial lo posiciona como un asesor de confianza.'
-    ],
-    experienciaAnios: 18,
-    tarifaBase: 300,
-    moneda: 'USD',
-    fotoUrl: 'https://esotopa.com/wp-content/uploads/2023/11/Soto-528x621-1.png',
-    fotoAlt: 'Retrato del Dr. Carlos Javier Ruiz',
-    especialidadesSecundarias: ['Derecho Mercantil', 'Propiedad Intelectual'],
-    educacion: [
-      {
-        id: 'e1',
-        nivel: 'Universidad',
-        titulo: 'Licenciatura en Derecho',
-        institucion: 'Universidad deprivada de Nicaragua',
-        isPrimary: true
-      },
-      {
-        id: 'e2',
-        nivel: 'Maestría',
-        titulo: 'MBA en Gestión Empresarial',
-        institucion: 'INCAE Business School'
-      }
-    ],
-    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3748.717885409375!2d-85.951!3d11.934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1'
-  },
-  {
-    id: '5',
-    nombre: 'Dra. Ana Patricia Vega',
-    especialidadPrincipal: 'Derecho Laboral',
-    ubicacion: 'Managua, Nicaragua',
-    descripcionCorta: 'Abogada laboralista especializada en relaciones obrero-patronales.',
-    biografia: [
-      'La Dra. Ana Patricia Vega es una profesional del derecho laboral con más de 8 años de experiencia.',
-      ' representa tanto a empleadores como a empleados en disputas laborales.',
-      'Su práctica se enfoca en la prevención y resolución de conflictos laborales.'
-    ],
-    experienciaAnios: 8,
-    tarifaBase: 100,
-    moneda: 'USD',
-    fotoUrl: 'https://media.istockphoto.com/id/1587604256/es/foto/retrato-abogada-y-mujer-negra-con-tablet-sonrisa-y-feliz-en-la-oficina-del-lugar-de-trabajo.jpg?s=612x612&w=0&k=20&c=jyalE8Zgyk_86i4JGA6MCh2LQ0xkYvckGi24O0-ecGg=',
-    fotoAlt: 'Retrato de la Dra. Ana Patricia Vega',
-    especialidadesSecundarias: ['Derecho Civil', 'Seguridad Social'],
-    educacion: [
-      {
-        id: 'e1',
-        nivel: 'Universidad',
-        titulo: 'Licenciatura en Derecho',
-        institucion: 'Universidad Nacional Autónoma de Nicaragua (UNAN)',
-        isPrimary: true
-      }
-    ],
-    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3748.717885409375!2d-86.251!3d12.115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1'
-  },
-  {
-    id: '6',
-    nombre: 'Dr. José Antonio Morales',
-    especialidadPrincipal: 'Derecho Mercantil',
-    ubicacion: 'Masaya, Nicaragua',
-    descripcionCorta: 'Abogado mercantilista experto en contratos comerciales.',
-    biografia: [
-      'El Dr. José Antonio Morales tiene más de 14 años de experiencia en derecho mercantil.',
-      'Se especializa en la redacción y negociación de contratos comerciales complejos.',
-      'Ha asesorado a empresas de diversos sectores en Nicaragua.'
-    ],
-    experienciaAnios: 14,
-    tarifaBase: 180,
-    moneda: 'USD',
-    fotoUrl: 'https://www.abogados.com/sites/default/files/styles/_750px_x_500px_/public/2026-04/shutterstock_2722448341.jpg?itok=2nJO8WxY',
-    fotoAlt: 'Retrato del Dr. José Antonio Morales',
-    especialidadesSecundarias: ['Derecho Corporativo', 'Propiedad Intelectual'],
-    educacion: [
-      {
-        id: 'e1',
-        nivel: 'Universidad',
-        titulo: 'Licenciatura en Derecho',
-        institucion: 'Universidad Centroamericana (UCA)',
-        isPrimary: true
-      },
-      {
-        id: 'e2',
-        nivel: 'Diplomado',
-        titulo: 'Diplomado en Comercio Internacional',
-        institucion: 'Universidad Americana'
-      }
-    ],
-    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3748.717885409375!2d-86.056!3d11.974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1'
-  }
-];
-
-export const getPerfilAbogado = (id: string): AbogadoPerfilData | undefined => {
-  return perfilesAbogados.find(p => p.id === id);
-};

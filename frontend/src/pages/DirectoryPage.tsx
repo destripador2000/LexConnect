@@ -1,12 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from '../styles/Directory.module.css';
 import { featuredLawyers } from '../data/lawyers';
+import type { Lawyer } from '../data/lawyers';
 import { LawyerCard } from '../components/lawyer/LawyerCard';
 import { FilterBar } from '../components/lawyer/FilterBar';
 import { HeaderDirectory } from '../components/layout/HeaderDirectory';
 import { Footer } from '../components/layout/Footer';
 
 export const DirectoryPage: React.FC = () => {
+  const [filteredLawyers, setFilteredLawyers] = useState<Lawyer[]>(featuredLawyers);
+
   return (
     <>
       <HeaderDirectory />
@@ -29,19 +32,19 @@ export const DirectoryPage: React.FC = () => {
           </div>
 
           <div className={styles.filterWrapper}>
-            <FilterBar />
+            <FilterBar lawyers={featuredLawyers} onFilter={setFilteredLawyers} />
           </div>
         </section>
 
         <section className={styles.gridSection}>
           <div className={styles.gridInner}>
             <div className={styles.gridHeader}>
-              <h2 className={styles.gridTitle}>Abogados Destacados</h2>
-              <span className={styles.gridCount}>{featuredLawyers.length} resultados encontrados</span>
+              <h2 className={styles.gridTitle}>Abogados Disponibles</h2>
+              <span className={styles.gridCount}>{filteredLawyers.length} perfiles encontrados</span>
             </div>
             
             <div className={styles.cardsContainer}>
-              {featuredLawyers.map(lawyer => (
+              {filteredLawyers.map(lawyer => (
                 <LawyerCard key={lawyer.id} lawyer={lawyer} />
               ))}
             </div>
