@@ -59,7 +59,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
         honores: 'Diploma de Excelencia'
       }
     ],
-    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3748.717885409375!2d-86.251!3d12.115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1'
+    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124838.77815512936!2d-86.34103379394205!3d12.097646806768067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f71560dd907880b%3A0x6c5ef4a2144f4c6a!2sManagua!5e0!3m2!1ses!2sni!4v1776824262040!5m2!1ses!2sni'
   },
   {
     id: '2',
@@ -93,7 +93,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
         institucion: 'Instituto de Estudios Superiores (INES)'
       }
     ],
-    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3748.717885409375!2d-86.878!3d12.398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1'
+    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d411095.32687386964!2d-87.80790173562329!3d12.529153889024592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f7112e382cf4945%3A0xd42c7706bf89200!2zTGXDs24!5e0!3m2!1ses!2sni!4v1776825843176!5m2!1ses!2sni'
   },
   {
     id: '3',
@@ -121,7 +121,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
         isPrimary: true
       }
     ],
-    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3748.717885409375!2d-86.251!3d12.115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1'
+    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124838.77815512936!2d-86.34103379394205!3d12.097646806768067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f71560dd907880b%3A0x6c5ef4a2144f4c6a!2sManagua!5e0!3m2!1ses!2sni!4v1776824262040!5m2!1ses!2sni'
   },
   {
     id: '4',
@@ -155,7 +155,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
         institucion: 'INCAE Business School'
       }
     ],
-    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3748.717885409375!2d-85.951!3d11.934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1'
+    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31229.266725061956!2d-85.98044193403345!3d11.928848547986005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f740c91706b1593%3A0x3b8c904dc8ceb48c!2sGranada!5e0!3m2!1ses!2sni!4v1776825509733!5m2!1ses!2sni'
   },
   {
     id: '5',
@@ -183,7 +183,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
         isPrimary: true
       }
     ],
-    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3748.717885409375!2d-86.251!3d12.115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1'
+    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124838.77815512936!2d-86.34103379394205!3d12.097646806768067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f71560dd907880b%3A0x6c5ef4a2144f4c6a!2sManagua!5e0!3m2!1ses!2sni!4v1776824262040!5m2!1ses!2sni'
   },
   {
     id: '6',
@@ -217,7 +217,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
         institucion: 'Universidad Americana'
       }
     ],
-    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3748.717885409375!2d-86.056!3d11.974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1'
+    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62447.86333670637!2d-86.13392448042234!3d11.975092608224594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f74061d911c1529%3A0xf2d6cd6150316ad2!2sMasaya!5e0!3m2!1ses!2sni!4v1776821774721!5m2!1ses!2sni'
   },
   {
     id: '7',
@@ -245,7 +245,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
         isPrimary: true
       }
     ],
-    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3748.717885409375!2d-86.878!3d12.398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1'
+    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d411095.32687386964!2d-87.80790173562329!3d12.529153889024592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f7112e382cf4945%3A0xd42c7706bf89200!2zTGXDs24!5e0!3m2!1ses!2sni!4v1776825843176!5m2!1ses!2sni'
   },
   {
     id: '8',
@@ -273,7 +273,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
         isPrimary: true
       }
     ],
-    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3748.717885409375!2d-86.251!3d12.115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1'
+    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124838.77815512936!2d-86.34103379394205!3d12.097646806768067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f71560dd907880b%3A0x6c5ef4a2144f4c6a!2sManagua!5e0!3m2!1ses!2sni!4v1776824262040!5m2!1ses!2sni'
   },
   {
     id: '9',
@@ -307,7 +307,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
         institucion: 'Universidad de Navarra España'
       }
     ],
-    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3748.717885409375!2d-86.251!3d12.115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1'
+    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124838.77815512936!2d-86.34103379394205!3d12.097646806768067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f71560dd907880b%3A0x6c5ef4a2144f4c6a!2sManagua!5e0!3m2!1ses!2sni!4v1776824262040!5m2!1ses!2sni'
   },
   {
     id: '10',
@@ -335,7 +335,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
         isPrimary: true
       }
     ],
-    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3748.717885409375!2d-85.951!3d11.934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1'
+    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31229.266725061956!2d-85.98044193403345!3d11.928848547986005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f740c91706b1593%3A0x3b8c904dc8ceb48c!2sGranada!5e0!3m2!1ses!2sni!4v1776825509733!5m2!1ses!2sni'
   },
   {
     id: '11',
@@ -369,7 +369,8 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
         institucion: 'INCAE Business School'
       }
     ],
-    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3748.717885409375!2d-86.251!3d12.115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1'
+    mapaUrl:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124838.77815512936!2d-86.34103379394205!3d12.097646806768067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f71560dd907880b%3A0x6c5ef4a2144f4c6a!2sManagua!5e0!3m2!1ses!2sni!4v1776824262040!5m2!1ses!2sni',
+
   },
   {
     id: '12',
@@ -397,7 +398,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
         isPrimary: true
       }
     ],
-    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3748.717885409375!2d-86.878!3d12.398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1'
+    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d411095.32687386964!2d-87.80790173562329!3d12.529153889024592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f7112e382cf4945%3A0xd42c7706bf89200!2zTGXDs24!5e0!3m2!1ses!2sni!4v1776825843176!5m2!1ses!2sni'
   },
   {
     id: '13',
@@ -425,7 +426,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
         isPrimary: true
       }
     ],
-    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3748.717885409375!2d-85.951!3d11.934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1'
+    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31229.266725061956!2d-85.98044193403345!3d11.928848547986005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f740c91706b1593%3A0x3b8c904dc8ceb48c!2sGranada!5e0!3m2!1ses!2sni!4v1776825509733!5m2!1ses!2sni'
   },
   {
     id: '14',
@@ -453,7 +454,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
         isPrimary: true
       }
     ],
-    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3748.717885409375!2d-86.056!3d11.974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1'
+    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62447.86333670637!2d-86.13392448042234!3d11.975092608224594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f74061d911c1529%3A0xf2d6cd6150316ad2!2sMasaya!5e0!3m2!1ses!2sni!4v1776821774721!5m2!1ses!2sni'
   },
   {
     id: '15',
@@ -481,7 +482,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
         isPrimary: true
       }
     ],
-    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3748.717885409375!2d-86.878!3d12.398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1'
+    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d411095.32687386964!2d-87.80790173562329!3d12.529153889024592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f7112e382cf4945%3A0xd42c7706bf89200!2zTGXDs24!5e0!3m2!1ses!2sni!4v1776825843176!5m2!1ses!2sni'
   },
   {
     id: '16',
@@ -509,7 +510,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
         isPrimary: true
       }
     ],
-    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3748.717885409375!2d-86.056!3d11.974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1'
+    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62447.86333670637!2d-86.13392448042234!3d11.975092608224594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f74061d911c1529%3A0xf2d6cd6150316ad2!2sMasaya!5e0!3m2!1ses!2sni!4v1776821774721!5m2!1ses!2sni'
   },
   {
     id: '17',
@@ -543,7 +544,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
         institucion: 'INCAE Business School'
       }
     ],
-    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3748.717885409375!2d-86.056!3d11.974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1'
+    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62447.86333670637!2d-86.13392448042234!3d11.975092608224594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f74061d911c1529%3A0xf2d6cd6150316ad2!2sMasaya!5e0!3m2!1ses!2sni!4v1776821774721!5m2!1ses!2sni'
   },
   {
     id: '18',
@@ -571,7 +572,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
         isPrimary: true
       }
     ],
-    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3748.717885409375!2d-85.951!3d11.934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1'
+    mapaUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31229.266725061956!2d-85.98044193403345!3d11.928848547986005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f740c91706b1593%3A0x3b8c904dc8ceb48c!2sGranada!5e0!3m2!1ses!2sni!4v1776825509733!5m2!1ses!2sni'
   }
 ];
 
