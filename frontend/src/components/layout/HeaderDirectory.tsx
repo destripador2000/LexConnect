@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import layoutStyles from '../../styles/Landing.module.css';
 import headerStyles from './Header.module.css';
 import dirStyles from '../../styles/Directory.module.css';
@@ -12,15 +12,15 @@ export const HeaderDirectory: React.FC = () => {
     <header className={headerStyles.header}>
       <div className={headerStyles.headerContainer}>
         <div className={layoutStyles.brandWrapper}>
-          <a href="/" className={headerStyles.brand}>
+          <Link to="/" className={headerStyles.brand}>
             <span className={`material-symbols-outlined ${headerStyles.iconFilled}`}>gavel</span>
             LexConnect NI
-          </a>
+          </Link>
         </div>
 
         <nav className={headerStyles.nav}>
-          <a href="/" className={headerStyles.navLink}>Inicio</a>
-          <a href="/directorio" className={`${headerStyles.navLink} ${headerStyles.navLinkActive}`}>Directorio</a>
+          <Link to="/" className={headerStyles.navLink}>Inicio</Link>
+          <Link to="/directorio" className={`${headerStyles.navLink} ${headerStyles.navLinkActive}`}>Directorio</Link>
         </nav>
 
         <div className={layoutStyles.actionWrapper}>
@@ -39,8 +39,8 @@ export const HeaderDirectory: React.FC = () => {
 
       {isMobileMenuOpen && (
         <div className={dirStyles.mobileDropdown}>
-          <a href="/" className={headerStyles.navLink}>Inicio</a>
-          <a href="/directorio" className={`${headerStyles.navLink} ${headerStyles.navLinkActive}`}>Directorio</a>
+          <Link to="/" className={headerStyles.navLink}>Inicio</Link>
+          <Link to="/directorio" className={`${headerStyles.navLink} ${headerStyles.navLinkActive}`}>Directorio</Link>
           <button className={headerStyles.actionBtn} onClick={() => navigate('/directorio')}>
             Explorar el directorio
             <span className={`material-symbols-outlined ${headerStyles.btnIcon}`}>arrow_forward</span>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate, useLocation } from 'react-router-dom';
+import { useNavigate, useLocation, Link } from 'react-router-dom';
 import layoutStyles from '../../styles/Landing.module.css';
 import styles from './Header.module.css';
 
@@ -15,17 +15,17 @@ export const Header: React.FC = () => {
     <header className={styles.header}>
       <div className={styles.headerContainer}>
         <div className={layoutStyles.brandWrapper}>
-          <a href="/" className={styles.brand}>
+          <Link to="/" className={styles.brand}>
             <span className={`material-symbols-outlined ${styles.iconFilled}`}>gavel</span>
             LexConnect NI
-          </a>
+          </Link>
         </div>
 
         <nav className={styles.nav}>
-          <a href="/" className={`${styles.navLink} ${isActive('/') ? styles.navLinkActive : ''}`}>Inicio</a>
-          <a href="/directorio" className={`${styles.navLink} ${isActive('/directorio') ? styles.navLinkActive : ''}`}>Directorio</a>
+          <Link to="/" className={isActive('/') ? `${styles.navLink} ${styles.navLinkActive}` : styles.navLink}>Inicio</Link>
+          <Link to="/directorio" className={isActive('/directorio') ? `${styles.navLink} ${styles.navLinkActive}` : styles.navLink}>Directorio</Link>
           {isPerfilActive && (
-            <a href="#" className={`${styles.navLink} ${styles.navLinkActive}`}>Perfil</a>
+            <span className={`${styles.navLink} ${styles.navLinkActive}`}>Perfil</span>
           )}
         </nav>
 
@@ -45,10 +45,10 @@ export const Header: React.FC = () => {
 
       {isMobileMenuOpen && (
         <div className={layoutStyles.mobileDropdown}>
-          <a href="/" className={`${styles.navLink} ${isActive('/') ? styles.navLinkActive : ''}`}>Inicio</a>
-          <a href="/directorio" className={`${styles.navLink} ${isActive('/directorio') ? styles.navLinkActive : ''}`}>Directorio</a>
+          <Link to="/" className={isActive('/') ? `${styles.navLink} ${styles.navLinkActive}` : styles.navLink}>Inicio</Link>
+          <Link to="/directorio" className={isActive('/directorio') ? `${styles.navLink} ${styles.navLinkActive}` : styles.navLink}>Directorio</Link>
           {isPerfilActive && (
-            <a href="#" className={`${styles.navLink} ${styles.navLinkActive}`}>Perfil</a>
+            <span className={`${styles.navLink} ${styles.navLinkActive}`}>Perfil</span>
           )}
           <button className={styles.actionBtn} onClick={() => navigate('/directorio')}>
             Explorar el directorio
