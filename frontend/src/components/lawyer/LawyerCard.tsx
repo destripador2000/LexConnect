@@ -32,7 +32,7 @@ export const LawyerCard: React.FC<Props> = ({ lawyer }) => {
         </div>
         <button 
           className={styles.cardBtn}
-          onClick={() => navigate(`/perfil/${lawyer.id}`)}
+          onClick={() => navigate(`/perfil/${lawyer.slug}`)}
         >
           Ver Perfil
         </button>

@@ -1,5 +1,6 @@
 export interface Lawyer {
   id: string;
+  slug: string;
   name: string;
   specialty: string;
   location: string;
@@ -10,6 +11,7 @@ export interface Lawyer {
 export const lawyers: Lawyer[] = [
   {
     id: '1',
+    slug: 'dra-elena-castellon',
     name: 'Dra. Elena Castellón',
     specialty: 'Derecho Civil',
     location: 'Managua, Nicaragua',
@@ -18,6 +20,7 @@ export const lawyers: Lawyer[] = [
   },
   {
     id: '2',
+    slug: 'dr-ricardo-mendoza',
     name: 'Dr. Ricardo Mendoza',
     specialty: 'Derecho Penal',
     location: 'León, Nicaragua',
@@ -26,6 +29,7 @@ export const lawyers: Lawyer[] = [
   },
   {
     id: '3',
+    slug: 'dra-maria-fernanda-lopez',
     name: 'Dra. María Fernanda López',
     specialty: 'Derecho Familiar',
     location: 'Managua, Nicaragua',
@@ -34,6 +38,7 @@ export const lawyers: Lawyer[] = [
   },
   {
     id: '4',
+    slug: 'dr-carlos-javier-ruiz',
     name: 'Dr. Carlos Javier Ruiz',
     specialty: 'Derecho Corporativo',
     location: 'Granada, Nicaragua',
@@ -42,6 +47,7 @@ export const lawyers: Lawyer[] = [
   },
   {
     id: '5',
+    slug: 'dra-ana-patricia-vega',
     name: 'Dra. Ana Patricia Vega',
     specialty: 'Derecho Laboral',
     location: 'Managua, Nicaragua',
@@ -50,6 +56,7 @@ export const lawyers: Lawyer[] = [
   },
   {
     id: '6',
+    slug: 'dr-jose-antonio-morales',
     name: 'Dr. José Antonio Morales',
     specialty: 'Derecho Mercantil',
     location: 'Masaya, Nicaragua',
@@ -58,6 +65,7 @@ export const lawyers: Lawyer[] = [
   },
   {
     id: '7',
+    slug: 'dr-luis-fernando-garcia',
     name: 'Dr. Luis Fernando García',
     specialty: 'Derecho Civil',
     location: 'León, Nicaragua',
@@ -66,6 +74,7 @@ export const lawyers: Lawyer[] = [
   },
   {
     id: '8',
+    slug: 'dra-carmen-dolores-ruiz',
     name: 'Dra. Carmen Dolores Ruiz',
     specialty: 'Derecho Penal',
     location: 'Managua, Nicaragua',
@@ -74,6 +83,7 @@ export const lawyers: Lawyer[] = [
   },
   {
     id: '9',
+    slug: 'dr-marco-antonio-sevilla',
     name: 'Dr. Marco Antonio Sevilla',
     specialty: 'Derecho Mercantil',
     location: 'Managua, Nicaragua',
@@ -82,6 +92,7 @@ export const lawyers: Lawyer[] = [
   },
   {
     id: '10',
+    slug: 'dra-sofia-isabella-vargas',
     name: 'Dra. Sofia Isabella Vargas',
     specialty: 'Derecho Familiar',
     location: 'Granada, Nicaragua',
@@ -90,6 +101,7 @@ export const lawyers: Lawyer[] = [
   },
   {
     id: '11',
+    slug: 'dr-fernando-jose-picado',
     name: 'Dr. Fernando José Picado',
     specialty: 'Derecho Corporativo',
     location: 'Managua, Nicaragua',
@@ -98,6 +110,7 @@ export const lawyers: Lawyer[] = [
   },
   {
     id: '12',
+    slug: 'dra-patricia-yaneth-corea',
     name: 'Dra. Patricia Yaneth Corea',
     specialty: 'Derecho Laboral',
     location: 'León, Nicaragua',
@@ -106,6 +119,7 @@ export const lawyers: Lawyer[] = [
   },
   {
     id: '13',
+    slug: 'dr-alejandro-jose-meza',
     name: 'Dr. Alejandro José Meza',
     specialty: 'Derecho Civil',
     location: 'Granada, Nicaragua',
@@ -114,6 +128,7 @@ export const lawyers: Lawyer[] = [
   },
   {
     id: '14',
+    slug: 'dra-ingrid-maria-blandon',
     name: 'Dra. Ingrid María Blandón',
     specialty: 'Derecho Penal',
     location: 'Masaya, Nicaragua',
@@ -122,6 +137,7 @@ export const lawyers: Lawyer[] = [
   },
   {
     id: '15',
+    slug: 'dr-roberto-carlos-alfaro',
     name: 'Dr. Roberto Carlos Alfaro',
     specialty: 'Derecho Mercantil',
     location: 'León, Nicaragua',
@@ -130,6 +146,7 @@ export const lawyers: Lawyer[] = [
   },
   {
     id: '16',
+    slug: 'dra-melissa-janeth-lopez',
     name: 'Dra. Melissa Janeth López',
     specialty: 'Derecho Familiar',
     location: 'Masaya, Nicaragua',
@@ -138,6 +155,7 @@ export const lawyers: Lawyer[] = [
   },
   {
     id: '17',
+    slug: 'dr-diego-fernando-montoya',
     name: 'Dr. Diego Fernando Montoya',
     specialty: 'Derecho Corporativo',
     location: 'Masaya, Nicaragua',
@@ -146,6 +164,7 @@ export const lawyers: Lawyer[] = [
   },
   {
     id: '18',
+    slug: 'dra-brenda-yadira-sequeira',
     name: 'Dra. Brenda Yadira Sequeira',
     specialty: 'Derecho Laboral',
     location: 'Granada, Nicaragua',

@@ -9,6 +9,7 @@ export interface Educacion {
 
 export interface AbogadoPerfilData {
   id: string;
+  slug: string;
   nombre: string;
   especialidadPrincipal: string;
   ubicacion: string;
@@ -27,6 +28,7 @@ export interface AbogadoPerfilData {
 export const perfilesAbogados: AbogadoPerfilData[] = [
   {
     id: '1',
+    slug: 'dra-elena-castellon',
     nombre: 'Dra. Elena Castellón',
     especialidadPrincipal: 'Derecho Civil',
     ubicacion: 'Managua, Nicaragua',
@@ -63,6 +65,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
   },
   {
     id: '2',
+    slug: 'dr-ricardo-mendoza',
     nombre: 'Dr. Ricardo Mendoza',
     especialidadPrincipal: 'Derecho Penal',
     ubicacion: 'León, Nicaragua',
@@ -97,6 +100,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
   },
   {
     id: '3',
+    slug: 'dra-maria-fernanda-lopez',
     nombre: 'Dra. María Fernanda López',
     especialidadPrincipal: 'Derecho Familiar',
     ubicacion: 'Managua, Nicaragua',
@@ -125,6 +129,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
   },
   {
     id: '4',
+    slug: 'dr-carlos-javier-ruiz',
     nombre: 'Dr. Carlos Javier Ruiz',
     especialidadPrincipal: 'Derecho Corporativo',
     ubicacion: 'Granada, Nicaragua',
@@ -159,6 +164,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
   },
   {
     id: '5',
+    slug: 'dra-ana-patricia-vega',
     nombre: 'Dra. Ana Patricia Vega',
     especialidadPrincipal: 'Derecho Laboral',
     ubicacion: 'Managua, Nicaragua',
@@ -187,6 +193,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
   },
   {
     id: '6',
+    slug: 'dr-jose-antonio-morales',
     nombre: 'Dr. José Antonio Morales',
     especialidadPrincipal: 'Derecho Mercantil',
     ubicacion: 'Masaya, Nicaragua',
@@ -221,6 +228,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
   },
   {
     id: '7',
+    slug: 'dr-luis-fernando-garcia',
     nombre: 'Dr. Luis Fernando García',
     especialidadPrincipal: 'Derecho Civil',
     ubicacion: 'León, Nicaragua',
@@ -249,6 +257,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
   },
   {
     id: '8',
+    slug: 'dra-carmen-dolores-ruiz',
     nombre: 'Dra. Carmen Dolores Ruiz',
     especialidadPrincipal: 'Derecho Penal',
     ubicacion: 'Managua, Nicaragua',
@@ -277,6 +286,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
   },
   {
     id: '9',
+    slug: 'dr-marco-antonio-sevilla',
     nombre: 'Dr. Marco Antonio Sevilla',
     especialidadPrincipal: 'Derecho Mercantil',
     ubicacion: 'Managua, Nicaragua',
@@ -311,6 +321,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
   },
   {
     id: '10',
+    slug: 'dra-sofia-isabella-vargas',
     nombre: 'Dra. Sofia Isabella Vargas',
     especialidadPrincipal: 'Derecho Familiar',
     ubicacion: 'Granada, Nicaragua',
@@ -339,6 +350,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
   },
   {
     id: '11',
+    slug: 'dr-fernando-jose-picado',
     nombre: 'Dr. Fernando José Picado',
     especialidadPrincipal: 'Derecho Corporativo',
     ubicacion: 'Managua, Nicaragua',
@@ -374,6 +386,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
   },
   {
     id: '12',
+    slug: 'dra-patricia-yaneth-corea',
     nombre: 'Dra. Patricia Yaneth Corea',
     especialidadPrincipal: 'Derecho Laboral',
     ubicacion: 'León, Nicaragua',
@@ -402,6 +415,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
   },
   {
     id: '13',
+    slug: 'dr-alejandro-jose-meza',
     nombre: 'Dr. Alejandro José Meza',
     especialidadPrincipal: 'Derecho Civil',
     ubicacion: 'Granada, Nicaragua',
@@ -430,6 +444,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
   },
   {
     id: '14',
+    slug: 'dra-ingrid-maria-blandon',
     nombre: 'Dra. Ingrid María Blandón',
     especialidadPrincipal: 'Derecho Penal',
     ubicacion: 'Masaya, Nicaragua',
@@ -458,6 +473,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
   },
   {
     id: '15',
+    slug: 'dr-roberto-carlos-alfaro',
     nombre: 'Dr. Roberto Carlos Alfaro',
     especialidadPrincipal: 'Derecho Mercantil',
     ubicacion: 'León, Nicaragua',
@@ -486,6 +502,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
   },
   {
     id: '16',
+    slug: 'dra-melissa-janeth-lopez',
     nombre: 'Dra. Melissa Janeth López',
     especialidadPrincipal: 'Derecho Familiar',
     ubicacion: 'Masaya, Nicaragua',
@@ -514,6 +531,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
   },
   {
     id: '17',
+    slug: 'dr-diego-fernando-montoya',
     nombre: 'Dr. Diego Fernando Montoya',
     especialidadPrincipal: 'Derecho Corporativo',
     ubicacion: 'Masaya, Nicaragua',
@@ -548,6 +566,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
   },
   {
     id: '18',
+    slug: 'dra-brenda-yadira-sequeira',
     nombre: 'Dra. Brenda Yadira Sequeira',
     especialidadPrincipal: 'Derecho Laboral',
     ubicacion: 'Granada, Nicaragua',
@@ -576,6 +595,6 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
   }
 ];
 
-export const getPerfilAbogado = (id: string): AbogadoPerfilData | undefined => {
-  return perfilesAbogados.find(p => p.id === id);
+export const getPerfilAbogado = (idOrSlug: string): AbogadoPerfilData | undefined => {
+  return perfilesAbogados.find(p => p.id === idOrSlug || p.slug === idOrSlug);
 };

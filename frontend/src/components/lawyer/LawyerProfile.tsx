@@ -6,8 +6,8 @@ import { Footer } from '../layout/Footer';
 import styles from '../../styles/PerfilAbogado.module.css';
 
 export const LawyerProfile: React.FC = () => {
-  const { id } = useParams<{ id: string }>();
-  const data = id ? getPerfilAbogado(id) : null;
+  const { slug } = useParams<{ slug: string }>();
+  const data = slug ? getPerfilAbogado(slug) : null;
 
   useEffect(() => {
     window.scrollTo(0, 0);

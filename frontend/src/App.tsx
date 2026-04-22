@@ -13,7 +13,7 @@ const router = createBrowserRouter([
     element: <DirectoryPage />,
   },
   {
-    path: '/perfil/:id',
+    path: '/perfil/:slug',
     element: <LawyerProfile />,
   },
 ])
