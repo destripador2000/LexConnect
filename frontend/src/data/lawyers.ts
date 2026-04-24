@@ -6,80 +6,89 @@ export interface Lawyer {
   location: string;
   imageUrl: string;
   imageAlt: string;
+  enfoqueFoto?: string;
 }
 
 export const lawyers: Lawyer[] = [
   {
     id: '1',
-    slug: 'dra-elena-castellon',
-    name: 'Dra. Elena Castellón',
+    slug: 'dr-rafael-guzman',
+    name: 'Dr. Rafael Gúzman',
     specialty: 'Derecho Civil',
     location: 'Managua, Nicaragua',
-    imageUrl: 'https://universidadeuropea.com/resources/media/images/shutterstock_2343004253_1.width-640.jpg',
-    imageAlt: 'Retrato de.abogada'
+    imageUrl: '/imagen1.jpeg',
+    imageAlt: 'Retrato de abogado',
+    enfoqueFoto: 'center 15%'
   },
   {
     id: '2',
-    slug: 'dr-ricardo-mendoza',
-    name: 'Dr. Ricardo Mendoza',
+    slug: 'dra-massiel-argüello',
+    name: 'Dra. Massiel Argüello',
     specialty: 'Derecho Penal',
     location: 'León, Nicaragua',
-    imageUrl: 'https://img.freepik.com/fotos-premium/libros-legales-retrato-sonrisa-e-investigacion-abogados-bufete-abogados-administracion-oficina-feliz-o-estudio-aprendizaje-justicia-conocimiento-asesor-financiero-educacion-abogado-o-consultor-hombre-gobierno-mexico_590464-155792.jpg',
-    imageAlt: 'Retrato de.abogado'
+    imageUrl: '/imagen2.jpeg',
+    imageAlt: 'Retrato de abogado',
+    enfoqueFoto: 'center 15%'
   },
   {
     id: '3',
-    slug: 'dra-maria-fernanda-lopez',
-    name: 'Dra. María Fernanda López',
+    slug: 'dr-adan-lopez',
+    name: 'Dr. Adan López',
     specialty: 'Derecho Familiar',
     location: 'Managua, Nicaragua',
-    imageUrl: 'https://www.unir.net/wp-content/uploads/2018/03/shutterstock_653652001.jpg',
-    imageAlt: 'Retrato de.abogada'
+    imageUrl: '/imagen4.jpeg',
+    imageAlt: 'Retrato de.abogada',
+    enfoqueFoto: 'center 15%'
   },
   {
     id: '4',
-    slug: 'dr-carlos-javier-ruiz',
-    name: 'Dr. Carlos Javier Ruiz',
+    slug: 'dra-ariadna-lacayo',
+    name: 'Dra. Ariadna Lacayo',
     specialty: 'Derecho Corporativo',
     location: 'Granada, Nicaragua',
-    imageUrl: 'https://asistencialegalinmediata.com/wp-content/uploads/2024/06/precio-abogado-oficio-juicio-rapido.jpg',
-    imageAlt: 'Retrato de.abogado'
+    imageUrl: '/imagen3.jpeg',
+    imageAlt: 'Retrato de abogado',
+    enfoqueFoto: 'center 15%'
   },
   {
     id: '5',
-    slug: 'dra-ana-patricia-vega',
-    name: 'Dra. Ana Patricia Vega',
+    slug: 'dr-David-Altamirano',
+    name: 'Dr. David Altamirano',
     specialty: 'Derecho Laboral',
     location: 'Managua, Nicaragua',
-    imageUrl: 'https://media.istockphoto.com/id/1587604256/es/foto/retrato-abogada-y-mujer-negra-con-tablet-sonrisa-y-feliz-en-la-oficina-del-lugar-de-trabajo.jpg?s=612x612&w=0&k=20&c=jyalE8Zgyk_86i4JGA6MCh2LQ0xkYvckGi24O0-ecGg=',
-    imageAlt: 'Retrato de.abogada'
+    imageUrl: '/imagen5.jpeg',
+    imageAlt: 'Retrato de.abogado',
+    enfoqueFoto: 'center 15%'
   },
   {
     id: '6',
-    slug: 'dr-jose-antonio-morales',
-    name: 'Dr. José Antonio Morales',
+    slug: 'dra-ashley-mayorga',
+    name: 'Dra. Ashley Mayorga',
     specialty: 'Derecho Mercantil',
     location: 'Masaya, Nicaragua',
-    imageUrl: 'https://www.abogados.com/sites/default/files/styles/_750px_x_500px_/public/2026-04/shutterstock_2722448341.jpg?itok=2nJO8WxY',
-    imageAlt: 'Retrato de.abogado'
+    imageUrl: '/imagen7.jpeg',
+    imageAlt: 'Retrato de abogada',
+    enfoqueFoto: 'center 15%'
   },
   {
     id: '7',
-    slug: 'dr-luis-fernando-garcia',
-    name: 'Dr. Luis Fernando García',
+    slug: 'dr-francisco-gonzales',
+    name: 'Dr. Francisco Gonzales',
     specialty: 'Derecho Civil',
     location: 'León, Nicaragua',
-    imageUrl: 'https://www.garridoydonaque.com/wp-content/uploads/2024/07/abogado-de-empresa.jpg',
-    imageAlt: 'Retrato de.abogado'
+    imageUrl: '/imagen6.jpeg',
+    imageAlt: 'Retrato de.abogado',
+    enfoqueFoto: 'center 15%'
   },
   {
     id: '8',
-    slug: 'dra-carmen-dolores-ruiz',
-    name: 'Dra. Carmen Dolores Ruiz',
+    slug: 'dra-abril-reyes',
+    name: 'Dra. Abril Reyes',
     specialty: 'Derecho Penal',
     location: 'Managua, Nicaragua',
-    imageUrl: 'https://ss-cnt-001c.esmsv.com/r/content/host1/04c93e93c16ee5a8cdb8368abcf47968//editor/estudio-juridico-panizo-abogada-mar-del-plata.webp',
-    imageAlt: 'Retrato de.abogada'
+    imageUrl: '/imagen8.jpeg',
+    imageAlt: 'Retrato de.abogada',
+    enfoqueFoto: 'center 15%'
   },
   {
     id: '9',
@@ -88,7 +97,8 @@ export const lawyers: Lawyer[] = [
     specialty: 'Derecho Mercantil',
     location: 'Managua, Nicaragua',
     imageUrl: 'https://mexico.unir.net/wp-content/uploads/sites/6/2021/03/abogado-litigante.jpg',
-    imageAlt: 'Retrato de.abogado'
+    imageAlt: 'Retrato de.abogado',
+    enfoqueFoto: 'center'
   },
   {
     id: '10',
@@ -97,7 +107,8 @@ export const lawyers: Lawyer[] = [
     specialty: 'Derecho Familiar',
     location: 'Granada, Nicaragua',
     imageUrl: 'https://www.habanaabogados.es/wp-content/uploads/2025/11/HABANA-ABOGADOS-11-scaled.jpg',
-    imageAlt: 'Retrato de.abogada'
+    imageAlt: 'Retrato de.abogada',
+    enfoqueFoto: 'center'
   },
   {
     id: '11',
@@ -106,7 +117,8 @@ export const lawyers: Lawyer[] = [
     specialty: 'Derecho Corporativo',
     location: 'Managua, Nicaragua',
     imageUrl: 'https://www.ambitojuridico.com/sites/default/files/styles/imagen_800x400/public/abogado-derecho-juristabig1.jpg.webp?itok=GQfDxm1A',
-    imageAlt: 'Retrato de.abogado'
+    imageAlt: 'Retrato de.abogado',
+    enfoqueFoto: 'center'
   },
   {
     id: '12',
@@ -115,7 +127,8 @@ export const lawyers: Lawyer[] = [
     specialty: 'Derecho Laboral',
     location: 'León, Nicaragua',
     imageUrl: 'https://mariarosagarcia.es/wp-content/uploads/2014/04/Maria-Rosa-Garc%C3%ADa-Abogada-Puerto-Lumbreras.jpg',
-    imageAlt: 'Retrato de.abogada'
+    imageAlt: 'Retrato de.abogada',
+    enfoqueFoto: 'center'
   },
   {
     id: '13',
@@ -124,7 +137,8 @@ export const lawyers: Lawyer[] = [
     specialty: 'Derecho Civil',
     location: 'Granada, Nicaragua',
     imageUrl: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400',
-    imageAlt: 'Retrato de.abogado'
+    imageAlt: 'Retrato de.abogado',
+    enfoqueFoto: 'center'
   },
   {
     id: '14',
@@ -133,7 +147,8 @@ export const lawyers: Lawyer[] = [
     specialty: 'Derecho Penal',
     location: 'Masaya, Nicaragua',
     imageUrl: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=400',
-    imageAlt: 'Retrato de.abogada'
+    imageAlt: 'Retrato de.abogada',
+    enfoqueFoto: 'center'
   },
   {
     id: '15',
@@ -142,7 +157,8 @@ export const lawyers: Lawyer[] = [
     specialty: 'Derecho Mercantil',
     location: 'León, Nicaragua',
     imageUrl: 'https://clippingrrpp.com/wp-content/uploads/2018/06/abogado-junior-despacho.jpg',
-    imageAlt: 'Retrato de.abogado'
+    imageAlt: 'Retrato de.abogado',
+    enfoqueFoto: 'center'
   },
   {
     id: '16',
@@ -151,7 +167,8 @@ export const lawyers: Lawyer[] = [
     specialty: 'Derecho Familiar',
     location: 'Masaya, Nicaragua',
     imageUrl: 'https://www.lawandtrends.com/files/post/imagencabecera/201337/680x452_MUJER%20ABOGADA.jpg',
-    imageAlt: 'Retrato de.abogada'
+    imageAlt: 'Retrato de.abogada',
+    enfoqueFoto: 'center'
   },
   {
     id: '17',
@@ -160,7 +177,8 @@ export const lawyers: Lawyer[] = [
     specialty: 'Derecho Corporativo',
     location: 'Masaya, Nicaragua',
     imageUrl: 'https://altalegal.com/wp-content/uploads/2023/04/870x576px_Foto_Web_ALTA-Nuevos-CRMariano-Bata.png',
-    imageAlt: 'Retrato de.abogado'
+    imageAlt: 'Retrato de.abogado',
+    enfoqueFoto: 'center'
   },
   {
     id: '18',
@@ -169,7 +187,8 @@ export const lawyers: Lawyer[] = [
     specialty: 'Derecho Laboral',
     location: 'Granada, Nicaragua',
     imageUrl: 'https://www.shutterstock.com/image-photo/portrait-beautiful-young-business-woman-600nw-2481341233.jpg',
-    imageAlt: 'Retrato de.abogada'
+    imageAlt: 'Retrato de.abogada',
+    enfoqueFoto: 'center'
   }
 ];
 

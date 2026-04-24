@@ -20,6 +20,7 @@ export interface AbogadoPerfilData {
   moneda: string;
   fotoUrl: string;
   fotoAlt: string;
+  enfoqueFoto?: string;
   especialidadesSecundarias: string[];
   educacion: Educacion[];
   mapaUrl: string;
@@ -28,21 +29,22 @@ export interface AbogadoPerfilData {
 export const perfilesAbogados: AbogadoPerfilData[] = [
   {
     id: '1',
-    slug: 'dra-elena-castellon',
-    nombre: 'Dra. Elena Castellón',
+    slug: 'dr-rafael-guzman',
+    nombre: 'Dr. Rafael Gúzman',
     especialidadPrincipal: 'Derecho Civil',
     ubicacion: 'Managua, Nicaragua',
-    descripcionCorta: 'Abogada especializada con más de 15 años de experiencia en resolución de conflictos civiles.',
+    descripcionCorta: 'Abogado especializado con más de 15 años de experiencia en resolución de conflictos civiles.',
     biografia: [
-      'La Dra. Elena Castellón es una destacada profesional del derecho civil con más de 15 años de trayectoria en Nicaragua.',
+      'El Dr. Rafael Gúzman es una destacado profesional del derecho civil con más de 15 años de trayectoria en Nicaragua.',
       'Ha representado exitosamente a cientos de clientes en casos de divorcios, disputas patrimoniales y reclamaciones legales.',
-      'Su enfoque humanista y meticuloso la ha convertido en una de las attorneys más recomendadas de Managua.'
+      'Su enfoque humanista y meticuloso lo ha convertido en uno de las attorneys más recomendadas de Managua.'
     ],
     experienciaAnios: 15,
     tarifaBase: 150,
     moneda: 'USD',
-    fotoUrl: 'https://universidadeuropea.com/resources/media/images/shutterstock_2343004253_1.width-640.jpg',
-    fotoAlt: 'Retrato de.abogada',
+    fotoUrl: '/imagen1.jpeg',
+    fotoAlt: 'Retrato de abogado',
+    enfoqueFoto: 'center 15%',
     especialidadesSecundarias: ['Derecho de Familia', 'Derecho Contractual'],
     educacion: [
       {
@@ -65,21 +67,22 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
   },
   {
     id: '2',
-    slug: 'dr-ricardo-mendoza',
-    nombre: 'Dr. Ricardo Mendoza',
+    slug: 'dra-massiel-argüello',
+    nombre: 'Dra. Massiel Argüello',
     especialidadPrincipal: 'Derecho Penal',
     ubicacion: 'León, Nicaragua',
-    descripcionCorta: 'Abogado penalista con amplia experiencia en procesos judiciales complejos.',
+    descripcionCorta: 'Abogada penalista con amplia experiencia en procesos judiciales complejos.',
     biografia: [
-      'El Dr. Ricardo Mendoza es un reconocido penalista con más de 12 años de experiencia en el sistema judicial Nicaragüense.',
+      'El Dra. Massiel Argüello es una reconocida penalista con más de 12 años de experiencia en el sistema judicial Nicaragüense.',
       'Se ha especializado en la defensa de casos complejos y ha obtenido resultados favorables en múltiples audiencias.',
       'Su trayectoria incluye haber defendido casos de alto impacto mediático en la región.'
     ],
     experienciaAnios: 12,
     tarifaBase: 200,
     moneda: 'USD',
-    fotoUrl: 'https://img.freepik.com/fotos-premium/libros-legales-retrato-sonrisa-e-investigacion-abogados-bufete-abogados-administracion-oficina-feliz-o-estudio-aprendizaje-justicia-conocimiento-asesor-financiero-educacion-abogado-o-consultor-hombre-gobierno-mexico_590464-155792.jpg',
+    fotoUrl: '/imagen2.jpeg',
     fotoAlt: 'Retrato de.abogado',
+    enfoqueFoto: 'center 15%',
     especialidadesSecundarias: ['Derecho Mercantil', 'Derecho Constitutional'],
     educacion: [
       {
@@ -100,21 +103,22 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
   },
   {
     id: '3',
-    slug: 'dra-maria-fernanda-lopez',
-    nombre: 'Dra. María Fernanda López',
+    slug: 'dr-adan-lopez',
+    nombre: 'Dr. Adan López',
     especialidadPrincipal: 'Derecho Familiar',
     ubicacion: 'Managua, Nicaragua',
     descripcionCorta: 'Especialista en derecho de familia con enfoque en mediación y custodia.',
     biografia: [
-      'La Dra. María Fernanda López es una profesional dedicada al derecho de familia con más de 10 años de experiencia.',
-      'Ha ayudado a numerosas familias a resolver conflictos de custodia y divorcios de manera疏导.',
-      'Su compromiso con el bienestar infantil la distingue en su práctica profesional.'
+      'La Dr. Adan López es un profesional dedicado al derecho de familia con más de 10 años de experiencia.',
+      'Ha ayudado a numerosas familias a resolver conflictos de custodia y divorcios de manera éxitosa.',
+      'Su compromiso con el bienestar infantil lo distingue en su práctica profesional.'
     ],
     experienciaAnios: 10,
     tarifaBase: 120,
     moneda: 'USD',
-    fotoUrl: 'https://www.unir.net/wp-content/uploads/2018/03/shutterstock_653652001.jpg',
+    fotoUrl: '/imagen4.jpeg',
     fotoAlt: 'Retrato de.abogada',
+    enfoqueFoto: 'center 15%',
     especialidadesSecundarias: ['Derecho Civil', 'Mediación Familiar'],
     educacion: [
       {
@@ -129,21 +133,22 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
   },
   {
     id: '4',
-    slug: 'dr-carlos-javier-ruiz',
-    nombre: 'Dr. Carlos Javier Ruiz',
+    slug: 'dra-ariadna-lacayo',
+    nombre: 'Dra. Ariadna Lacayo',
     especialidadPrincipal: 'Derecho Corporativo',
     ubicacion: 'Granada, Nicaragua',
-    descripcionCorta: 'Asesor legal empresarial especializado en mergers y adquisiciones.',
+    descripcionCorta: 'Asesora legal empresarial especializada en mergers y adquisiciones.',
     biografia: [
-      'El Dr. Carlos Javier Ruiz cuenta con más de 18 años de experiencia en derecho corporativo.',
+      'La Dra. Ariadna Lacayo cuenta con más de 18 años de experiencia en derecho corporativo.',
       'Ha asesorado a múltiples empresas nacionales e internacionales en procesos de fusión y adquisición.',
-      'Su expertise en regulación empresarial lo posiciona como un asesor de confianza.'
+      'Su expertise en regulación empresarial la posiciona como una asesora de confianza.'
     ],
     experienciaAnios: 18,
     tarifaBase: 300,
     moneda: 'USD',
-    fotoUrl: 'https://esotopa.com/wp-content/uploads/2023/11/Soto-528x621-1.png',
+    fotoUrl: '/imagen3.jpeg',
     fotoAlt: 'Retrato de.abogado',
+    enfoqueFoto: 'center 15%',
     especialidadesSecundarias: ['Derecho Mercantil', 'Propiedad Intelectual'],
     educacion: [
       {
@@ -164,21 +169,22 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
   },
   {
     id: '5',
-    slug: 'dra-ana-patricia-vega',
-    nombre: 'Dra. Ana Patricia Vega',
+    slug: 'dr-David-Altamirano',
+    nombre: 'Dr. David Altamirano',
     especialidadPrincipal: 'Derecho Laboral',
     ubicacion: 'Managua, Nicaragua',
-    descripcionCorta: 'Abogada laboralista especializada en relaciones obrero-patronales.',
+    descripcionCorta: 'Abogado laboralista especializado en relaciones obrero-patronales.',
     biografia: [
-      'La Dra. Ana Patricia Vega es una profesional del derecho laboral con más de 8 años de experiencia.',
-      ' representa tanto a empleadores como a empleados en disputas laborales.',
+      'El Dr. David Altamirano  es un profesional del derecho laboral con más de 8 años de experiencia.',
+      ' Representa tanto a empleadores como a empleados en disputas laborales.',
       'Su práctica se enfoca en la prevención y resolución de conflictos laborales.'
     ],
     experienciaAnios: 8,
     tarifaBase: 100,
     moneda: 'USD',
-    fotoUrl: 'https://media.istockphoto.com/id/1587604256/es/foto/retrato-abogada-y-mujer-negra-con-tablet-sonrisa-y-feliz-en-la-oficina-del-lugar-de-trabajo.jpg?s=612x612&w=0&k=20&c=jyalE8Zgyk_86i4JGA6MCh2LQ0xkYvckGi24O0-ecGg=',
+    fotoUrl: '/imagen5.jpeg',
     fotoAlt: 'Retrato de.abogada',
+    enfoqueFoto: 'center 15%',
     especialidadesSecundarias: ['Derecho Civil', 'Seguridad Social'],
     educacion: [
       {
@@ -193,21 +199,22 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
   },
   {
     id: '6',
-    slug: 'dr-jose-antonio-morales',
-    nombre: 'Dr. José Antonio Morales',
+    slug: 'dra-ashley-mayorga',
+    nombre: 'Dra. Ashley Mayorga',
     especialidadPrincipal: 'Derecho Mercantil',
     ubicacion: 'Masaya, Nicaragua',
-    descripcionCorta: 'Abogado mercantilista experto en contratos comerciales.',
+    descripcionCorta: 'Abogada mercantilista experta en contratos comerciales.',
     biografia: [
-      'El Dr. José Antonio Morales tiene más de 14 años de experiencia en derecho mercantil.',
+      'La Dra. Ashley Mayorga tiene más de 14 años de experiencia en derecho mercantil.',
       'Se especializa en la redacción y negociación de contratos comerciales complejos.',
       'Ha asesorado a empresas de diversos sectores en Nicaragua.'
     ],
     experienciaAnios: 14,
     tarifaBase: 180,
     moneda: 'USD',
-    fotoUrl: 'https://www.abogados.com/sites/default/files/styles/_750px_x_500px_/public/2026-04/shutterstock_2722448341.jpg?itok=2nJO8WxY',
+    fotoUrl: '/imagen7.jpeg',
     fotoAlt: 'Retrato de.abogado',
+    enfoqueFoto: 'center 15%',
     especialidadesSecundarias: ['Derecho Corporativo', 'Propiedad Intelectual'],
     educacion: [
       {
@@ -228,21 +235,22 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
   },
   {
     id: '7',
-    slug: 'dr-luis-fernando-garcia',
-    nombre: 'Dr. Luis Fernando García',
+    slug: 'dr-francisco-gonzales',
+    nombre: 'Dr. Francisco Gonzales',
     especialidadPrincipal: 'Derecho Civil',
     ubicacion: 'León, Nicaragua',
     descripcionCorta: 'Abogado civil con más de 9 años de experiencia en litigios.',
     biografia: [
-      'El Dr. Luis Fernando García es un abogado especializado en derecho civil con amplia experiencia en León.',
+      'El Dr. Francisco Gonzales es un abogado especializado en derecho civil con amplia experiencia en León.',
       'Ha representado exitosamente a clientes en disputas contractuales y responsabilidad civil.',
       'Su compromiso con la justicia y la ética profesional lo distinguen en su práctica.'
     ],
     experienciaAnios: 9,
     tarifaBase: 120,
     moneda: 'USD',
-    fotoUrl: 'https://www.garridoydonaque.com/wp-content/uploads/2024/07/abogado-de-empresa.jpg',
+    fotoUrl: '/imagen6.jpeg',
     fotoAlt: 'Retrato de.abogado',
+    enfoqueFoto: 'center 15%',
     especialidadesSecundarias: ['Derecho Contractual', 'Responsabilidad Civil'],
     educacion: [
       {
@@ -257,21 +265,22 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
   },
   {
     id: '8',
-    slug: 'dra-carmen-dolores-ruiz',
-    nombre: 'Dra. Carmen Dolores Ruiz',
+    slug: 'dra-abril-reyes',
+    nombre: 'Dra. Abril Reyes',
     especialidadPrincipal: 'Derecho Penal',
     ubicacion: 'Managua, Nicaragua',
     descripcionCorta: 'Abogada penalista con experiencia en defensa criminal.',
     biografia: [
-      'La Dra. Carmen Dolores Ruiz es una reconocida penalista en Managua.',
+      'La Dra. Abril Reyes es una reconocida penalista en Managua.',
       'Se ha especializado en la defensa de casos complejos y de alto impacto.',
       'Su trayectoria incluye múltiples casos favorables en el sistema judicial.'
     ],
     experienciaAnios: 11,
     tarifaBase: 180,
     moneda: 'USD',
-    fotoUrl: 'https://ss-cnt-001c.esmsv.com/r/content/host1/04c93e93c16ee5a8cdb8368abcf47968//editor/estudio-juridico-panizo-abogada-mar-del-plata.webp',
+    fotoUrl: '/imagen8.jpeg',
     fotoAlt: 'Retrato de.abogada',
+    enfoqueFoto: 'center 15%',
     especialidadesSecundarias: ['Derecho Procesal Penal', 'Derecho Constitutional'],
     educacion: [
       {
@@ -301,6 +310,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
     moneda: 'USD',
     fotoUrl: 'https://mexico.unir.net/wp-content/uploads/sites/6/2021/03/abogado-litigante.jpg',
     fotoAlt: 'Retrato de.abogado',
+    enfoqueFoto: 'center',
     especialidadesSecundarias: ['Derecho Corporativo', 'Contratos Comerciales'],
     educacion: [
       {
@@ -336,6 +346,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
     moneda: 'USD',
     fotoUrl: 'https://www.habanaabogados.es/wp-content/uploads/2025/11/HABANA-ABOGADOS-11-scaled.jpg',
     fotoAlt: 'Retrato de.abogada',
+    enfoqueFoto: 'center',
     especialidadesSecundarias: ['Derecho Civil', 'Mediación Familiar'],
     educacion: [
       {
@@ -365,6 +376,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
     moneda: 'USD',
     fotoUrl: 'https://www.ambitojuridico.com/sites/default/files/styles/imagen_800x400/public/abogado-derecho-juristabig1.jpg.webp?itok=GQfDxm1A',
     fotoAlt: 'Retrato de.abogado',
+    enfoqueFoto: 'center',
     especialidadesSecundarias: ['Derecho Mercantil', 'Propiedad Intelectual'],
     educacion: [
       {
@@ -401,6 +413,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
     moneda: 'USD',
     fotoUrl: 'https://mariarosagarcia.es/wp-content/uploads/2014/04/Maria-Rosa-Garc%C3%ADa-Abogada-Puerto-Lumbreras.jpg',
     fotoAlt: 'Retrato de.abogada',
+    enfoqueFoto: 'center',
     especialidadesSecundarias: ['Derecho Civil', 'Seguridad Social'],
     educacion: [
       {
@@ -430,6 +443,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
     moneda: 'USD',
     fotoUrl: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400',
     fotoAlt: 'Retrato de.abogado',
+    enfoqueFoto: 'center',
     especialidadesSecundarias: ['Derecho Contractual', 'Responsabilidad Civil'],
     educacion: [
       {
@@ -459,6 +473,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
     moneda: 'USD',
     fotoUrl: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=400',
     fotoAlt: 'Retrato de.abogada',
+    enfoqueFoto: 'center',
     especialidadesSecundarias: ['Derecho Procesal Penal', 'Derecho Constitutional'],
     educacion: [
       {
@@ -488,6 +503,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
     moneda: 'USD',
     fotoUrl: 'https://clippingrrpp.com/wp-content/uploads/2018/06/abogado-junior-despacho.jpg',
     fotoAlt: 'Retrato de.abogado',
+    enfoqueFoto: 'center',
     especialidadesSecundarias: ['Derecho Corporativo', 'Contratos Comerciales'],
     educacion: [
       {
@@ -517,6 +533,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
     moneda: 'USD',
     fotoUrl: 'https://www.lawandtrends.com/files/post/imagencabecera/201337/680x452_MUJER%20ABOGADA.jpg',
     fotoAlt: 'Retrato de.abogada',
+    enfoqueFoto: 'center',
     especialidadesSecundarias: ['Derecho Civil', 'Mediación Familiar'],
     educacion: [
       {
@@ -546,6 +563,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
     moneda: 'USD',
     fotoUrl: 'https://altalegal.com/wp-content/uploads/2023/04/870x576px_Foto_Web_ALTA-Nuevos-CRMariano-Bata.png',
     fotoAlt: 'Retrato de.abogado',
+    enfoqueFoto: 'center',
     especialidadesSecundarias: ['Derecho Mercantil', 'Propiedad Intelectual'],
     educacion: [
       {
@@ -581,6 +599,7 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
     moneda: 'USD',
     fotoUrl: 'https://www.shutterstock.com/image-photo/portrait-beautiful-young-business-woman-600nw-2481341233.jpg',
     fotoAlt: 'Retrato de.abogada',
+    enfoqueFoto: 'center',
     especialidadesSecundarias: ['Derecho Civil', 'Seguridad Social'],
     educacion: [
       {
