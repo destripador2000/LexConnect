@@ -34,7 +34,8 @@ export const LawyerProfile: React.FC = () => {
             <img 
               src={data.fotoUrl} 
               alt={data.fotoAlt} 
-              className={styles.profileImage} 
+              className={styles.profileImage}
+              style={{ objectPosition: data.enfoqueFoto || 'center' }}
             />
           </div>
           

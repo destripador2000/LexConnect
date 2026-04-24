@@ -16,7 +16,8 @@ export const LawyerCard: React.FC<Props> = ({ lawyer }) => {
         <img 
           src={lawyer.imageUrl} 
           alt={lawyer.imageAlt} 
-          className={styles.cardImg} 
+          className={styles.cardImg}
+          style={{ objectPosition: lawyer.enfoqueFoto || 'center' }}
         />
         <div className={styles.cardTag}>
           {lawyer.specialty}
