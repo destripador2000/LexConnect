@@ -13,7 +13,7 @@ export const HeaderDirectory: React.FC = () => {
       <div className={headerStyles.headerContainer}>
         <div className={layoutStyles.brandWrapper}>
           <Link to="/" className={headerStyles.brand}>
-            <span className={`material-symbols-outlined ${headerStyles.iconFilled}`}>gavel</span>
+            <span className={`material-symbols-outlined ${headerStyles.iconFilled}`} translate="no">gavel</span>
             LexConnect NI
           </Link>
         </div>

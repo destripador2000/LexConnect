@@ -30,7 +30,7 @@ export const FeatureCard: React.FC<FeatureCardProps> = ({
   return (
     <div className={`${layoutStyles.featureCard} ${staggerClass}`}>
       <div className={`${styles.iconWrapper} ${iconWrapperClass}`}>
-        <span className={`material-symbols-outlined ${styles.icon} ${iconColorClass}`}>
+        <span className={`material-symbols-outlined ${styles.icon} ${iconColorClass}`} translate="no">
           {icon}
         </span>
       </div>
@@ -39,7 +39,7 @@ export const FeatureCard: React.FC<FeatureCardProps> = ({
       {linkText && href && (
         <a href={href} className={`${styles.link} ${linkColorClass}`}>
           {linkText}
-          <span className={`material-symbols-outlined ${styles.linkIcon}`}>arrow_forward</span>
+          <span className={`material-symbols-outlined ${styles.linkIcon}`} translate="no">arrow_forward</span>
         </a>
       )}
     </div>

@@ -16,7 +16,7 @@ export const Header: React.FC = () => {
       <div className={styles.headerContainer}>
         <div className={layoutStyles.brandWrapper}>
           <Link to="/" className={styles.brand}>
-            <span className={`material-symbols-outlined ${styles.iconFilled}`}>gavel</span>
+            <span className={`material-symbols-outlined ${styles.iconFilled}`} translate="no">gavel</span>
             LexConnect NI
           </Link>
         </div>
