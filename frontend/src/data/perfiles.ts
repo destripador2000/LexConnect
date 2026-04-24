@@ -103,13 +103,13 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
   },
   {
     id: '3',
-    slug: 'dr-adan-lopez',
-    nombre: 'Dr. Adan López',
+    slug: 'dr-samuel-lopez',
+    nombre: 'Dr. Samuel López',
     especialidadPrincipal: 'Derecho Familiar',
     ubicacion: 'Managua, Nicaragua',
     descripcionCorta: 'Especialista en derecho de familia con enfoque en mediación y custodia.',
     biografia: [
-      'La Dr. Adan López es un profesional dedicado al derecho de familia con más de 10 años de experiencia.',
+      'El Dr. Samuel López es un profesional dedicado al derecho de familia con más de 10 años de experiencia.',
       'Ha ayudado a numerosas familias a resolver conflictos de custodia y divorcios de manera éxitosa.',
       'Su compromiso con el bienestar infantil lo distingue en su práctica profesional.'
     ],
@@ -199,13 +199,13 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
   },
   {
     id: '6',
-    slug: 'dra-ashley-mayorga',
-    nombre: 'Dra. Ashley Mayorga',
+    slug: 'dra-ashley-dona',
+    nombre: 'Dra. Ashley Doña',
     especialidadPrincipal: 'Derecho Mercantil',
     ubicacion: 'Masaya, Nicaragua',
     descripcionCorta: 'Abogada mercantilista experta en contratos comerciales.',
     biografia: [
-      'La Dra. Ashley Mayorga tiene más de 14 años de experiencia en derecho mercantil.',
+      'La Dra. Ashley Doña tiene más de 14 años de experiencia en derecho mercantil.',
       'Se especializa en la redacción y negociación de contratos comerciales complejos.',
       'Ha asesorado a empresas de diversos sectores en Nicaragua.'
     ],
@@ -235,13 +235,13 @@ export const perfilesAbogados: AbogadoPerfilData[] = [
   },
   {
     id: '7',
-    slug: 'dr-francisco-gonzales',
-    nombre: 'Dr. Francisco Gonzales',
+    slug: 'dr-fran-martinez',
+    nombre: 'Dr. Fran Martinez',
     especialidadPrincipal: 'Derecho Civil',
     ubicacion: 'León, Nicaragua',
     descripcionCorta: 'Abogado civil con más de 9 años de experiencia en litigios.',
     biografia: [
-      'El Dr. Francisco Gonzales es un abogado especializado en derecho civil con amplia experiencia en León.',
+      'El Dr. Fran Martinez es un abogado especializado en derecho civil con amplia experiencia en León.',
       'Ha representado exitosamente a clientes en disputas contractuales y responsabilidad civil.',
       'Su compromiso con la justicia y la ética profesional lo distinguen en su práctica.'
     ],

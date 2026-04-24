@@ -32,8 +32,8 @@ export const lawyers: Lawyer[] = [
   },
   {
     id: '3',
-    slug: 'dr-adan-lopez',
-    name: 'Dr. Adan López',
+    slug: 'dr-samuel-lopez',
+    name: 'Dr. Samuel López',
     specialty: 'Derecho Familiar',
     location: 'Managua, Nicaragua',
     imageUrl: '/imagen4.jpeg',
@@ -62,8 +62,8 @@ export const lawyers: Lawyer[] = [
   },
   {
     id: '6',
-    slug: 'dra-ashley-mayorga',
-    name: 'Dra. Ashley Mayorga',
+    slug: 'dra-ashley-dona',
+    name: 'Dra. Ashley Doña',
     specialty: 'Derecho Mercantil',
     location: 'Masaya, Nicaragua',
     imageUrl: '/imagen7.jpeg',
@@ -72,8 +72,8 @@ export const lawyers: Lawyer[] = [
   },
   {
     id: '7',
-    slug: 'dr-francisco-gonzales',
-    name: 'Dr. Francisco Gonzales',
+    slug: 'dr-fran-martinez',
+    name: 'Dr. Fran Martinez',
     specialty: 'Derecho Civil',
     location: 'León, Nicaragua',
     imageUrl: '/imagen6.jpeg',
