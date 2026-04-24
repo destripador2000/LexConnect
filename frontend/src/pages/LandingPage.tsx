@@ -12,24 +12,18 @@ const features = [
     icon: 'handshake',
     title: 'Conectando Personas',
     description: 'Eliminamos las barreras entre ciudadanos y expertos legales, facilitando una comunicación directa y transparente desde el primer contacto.',
-    linkText: 'Ver cómo funciona',
-    href: '#',
     marginTopClass: '',
   },
   {
     icon: 'schedule',
     title: 'Ahorro de Tiempo',
     description: 'Filtra por especialidad, ubicación y disponibilidad en segundos. Encuentra al abogado adecuado sin tener que hacer docenas de llamadas.',
-    linkText: 'Explorar filtros',
-    href: '#',
     marginTopClass: 'md:mt-12',
   },
   {
     icon: 'gavel',
     title: 'Acceso a la Justicia',
     description: 'Creemos en un sistema legal accesible para todos. Promovemos tarifas claras y asesoramiento de alta calidad en toda Nicaragua.',
-    linkText: 'Nuestra misión',
-    href: '#',
     marginTopClass: 'md:mt-24',
   }
 ];

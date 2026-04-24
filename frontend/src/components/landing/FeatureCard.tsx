@@ -6,8 +6,8 @@ interface FeatureCardProps {
   icon: string;
   title: string;
   description: string;
-  linkText: string;
-  href: string;
+  linkText?: string;
+  href?: string;
   marginTopClass?: string;
 }
 
@@ -36,10 +36,12 @@ export const FeatureCard: React.FC<FeatureCardProps> = ({
       </div>
       <h3 className={styles.cardTitle}>{title}</h3>
       <p className={styles.cardDescription}>{description}</p>
-      <a href={href} className={`${styles.link} ${linkColorClass}`}>
-        {linkText}
-        <span className={`material-symbols-outlined ${styles.linkIcon}`}>arrow_forward</span>
-      </a>
+      {linkText && href && (
+        <a href={href} className={`${styles.link} ${linkColorClass}`}>
+          {linkText}
+          <span className={`material-symbols-outlined ${styles.linkIcon}`}>arrow_forward</span>
+        </a>
+      )}
     </div>
   );
 };
