@@ -1,13 +1,15 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { getPerfilAbogado } from '../../data/perfiles';
 import { Header } from '../layout/Header';
 import { Footer } from '../layout/Footer';
+import { Toast } from '../ui/Toast';
 import styles from '../../styles/PerfilAbogado.module.css';
 
 export const LawyerProfile: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
   const data = slug ? getPerfilAbogado(slug) : null;
+  const [toastVisible, setToastVisible] = useState(false);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -82,7 +84,7 @@ export const LawyerProfile: React.FC = () => {
                 </div>
               </div>
               
-              <button className={styles.contactBtn}>
+              <button className={styles.contactBtn} onClick={() => setToastVisible(true)}>
                 Contactar
                 <span className="material-symbols-outlined">send</span>
               </button>
@@ -166,6 +168,11 @@ export const LawyerProfile: React.FC = () => {
         </div>
       </main>
       <Footer />
+      <Toast 
+        message="Mensaje enviado, pronto el abogado se contactará contigo" 
+        isVisible={toastVisible} 
+        onClose={() => setToastVisible(false)} 
+      />
     </>
   );
 };
