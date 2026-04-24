@@ -26,12 +26,12 @@ export const HeaderDirectory: React.FC = () => {
         <div className={layoutStyles.actionWrapper}>
           <button className={headerStyles.actionBtn} onClick={() => navigate('/directorio')}>
             Explorar el directorio
-            <span className={`material-symbols-outlined ${headerStyles.btnIcon}`}>arrow_forward</span>
+            <span className={`material-symbols-outlined ${headerStyles.btnIcon}`} translate="no">arrow_forward</span>
           </button>
         </div>
 
         <button className={dirStyles.mobileMenuBtn} onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
-          <span className="material-symbols-outlined">
+          <span className="material-symbols-outlined" translate="no">
             {isMobileMenuOpen ? 'close' : 'menu'}
           </span>
         </button>
@@ -43,7 +43,7 @@ export const HeaderDirectory: React.FC = () => {
           <Link to="/directorio" className={`${headerStyles.navLink} ${headerStyles.navLinkActive}`}>Directorio</Link>
           <button className={headerStyles.actionBtn} onClick={() => navigate('/directorio')}>
             Explorar el directorio
-            <span className={`material-symbols-outlined ${headerStyles.btnIcon}`}>arrow_forward</span>
+            <span className={`material-symbols-outlined ${headerStyles.btnIcon}`} translate="no">arrow_forward</span>
           </button>
         </div>
       )}

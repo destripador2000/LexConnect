@@ -26,7 +26,7 @@ export const LawyerCard: React.FC<Props> = ({ lawyer }) => {
       <div className={styles.cardBody}>
         <h3 className={styles.cardName}>{lawyer.name}</h3>
         <div className={styles.cardLocation}>
-          <span className={`material-symbols-outlined ${styles.locationIcon}`}>
+          <span className={`material-symbols-outlined ${styles.locationIcon}`} translate="no">
             location_on
           </span>
           <span>{lawyer.location}</span>

@@ -32,12 +32,12 @@ export const Header: React.FC = () => {
         <div className={layoutStyles.actionWrapper}>
           <button className={styles.actionBtn} onClick={() => navigate('/directorio')}>
             Explorar el directorio
-            <span className={`material-symbols-outlined ${styles.btnIcon}`}>arrow_forward</span>
+            <span className={`material-symbols-outlined ${styles.btnIcon}`} translate="no">arrow_forward</span>
           </button>
         </div>
 
         <button className={layoutStyles.mobileMenuBtn} onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
-          <span className="material-symbols-outlined">
+          <span className="material-symbols-outlined" translate="no">
             {isMobileMenuOpen ? 'close' : 'menu'}
           </span>
         </button>
@@ -52,7 +52,7 @@ export const Header: React.FC = () => {
           )}
           <button className={styles.actionBtn} onClick={() => navigate('/directorio')}>
             Explorar el directorio
-            <span className={`material-symbols-outlined ${styles.btnIcon}`}>arrow_forward</span>
+            <span className={`material-symbols-outlined ${styles.btnIcon}`} translate="no">arrow_forward</span>
           </button>
         </div>
       )}

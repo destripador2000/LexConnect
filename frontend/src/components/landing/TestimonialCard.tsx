@@ -12,7 +12,7 @@ export const TestimonialCard: React.FC<TestimonialCardProps> = ({ content, autho
     <div className={styles.card}>
       <div className={styles.rating}>
         {Array.from({ length: rating }).map((_, i) => (
-          <span key={i} className={`material-symbols-outlined ${styles.star}`} style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+          <span key={i} className={`material-symbols-outlined ${styles.star}`} style={{ fontVariationSettings: "'FILL' 1" }} translate="no">star</span>
         ))}
       </div>
       <p className={styles.content}>"{content}"</p>

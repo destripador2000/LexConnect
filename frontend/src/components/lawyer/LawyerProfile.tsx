@@ -48,7 +48,7 @@ export const LawyerProfile: React.FC = () => {
                   {data.especialidadPrincipal}
                 </span>
                 <div className={styles.locationText}>
-                  <span className="material-symbols-outlined" style={{ fontSize: '18px' }}>
+                  <span className="material-symbols-outlined" style={{ fontSize: '18px' }} translate="no">
                     location_on
                   </span>
                   <span>{data.ubicacion}</span>
@@ -63,7 +63,7 @@ export const LawyerProfile: React.FC = () => {
               <div className={styles.statsGrid}>
                 <div className={styles.statBox}>
                   <div className={styles.statHeader}>
-                    <span className={`material-symbols-outlined ${styles.iconFilled}`}>
+                    <span className={`material-symbols-outlined ${styles.iconFilled}`} translate="no">
                       workspace_premium
                     </span>
                     <span className={styles.statLabel}>Experiencia</span>
@@ -73,7 +73,7 @@ export const LawyerProfile: React.FC = () => {
                 
                 <div className={styles.statBox}>
                   <div className={styles.statHeader}>
-                    <span className={`material-symbols-outlined ${styles.iconFilled}`}>
+                    <span className={`material-symbols-outlined ${styles.iconFilled}`} translate="no">
                       payments
                     </span>
                     <span className={styles.statLabel}>Tarifa Base</span>
@@ -86,7 +86,7 @@ export const LawyerProfile: React.FC = () => {
               
               <button className={styles.contactBtn} onClick={() => setToastVisible(true)}>
                 Contactar
-                <span className="material-symbols-outlined">send</span>
+                <span className="material-symbols-outlined" translate="no">send</span>
               </button>
             </div>
           </div>
@@ -158,7 +158,7 @@ export const LawyerProfile: React.FC = () => {
                 ></iframe>
               </div>
               <p className={styles.addressText}>
-                <span className="material-symbols-outlined" style={{ color: '#003084', fontSize: '18px' }}>
+                <span className="material-symbols-outlined" style={{ color: '#003084', fontSize: '18px' }} translate="no">
                   location_on
                 </span>
                 {data.ubicacion}

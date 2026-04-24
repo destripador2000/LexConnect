@@ -19,7 +19,7 @@ export const Toast: React.FC<ToastProps> = ({ message, isVisible, onClose }) => 
 
   return (
     <div className={`${styles.toastContainer} ${isVisible ? styles.visible : ''}`}>
-      <span className={`material-symbols-outlined ${styles.icon}`}>
+      <span className={`material-symbols-outlined ${styles.icon}`} translate="no">
         check_circle
       </span>
       <p className={styles.message}>{message}</p>

@@ -13,7 +13,7 @@ export const HeroSection: React.FC = () => {
       <div className={layoutStyles.heroContent}>
         <div className={styles.heroInner}>
           <div className={styles.badge}>
-            <span className="material-symbols-outlined" style={{ fontSize: '18px' }}>balance</span>
+            <span className="material-symbols-outlined" style={{ fontSize: '18px' }} translate="no">balance</span>
             <span>Claridad y Autoridad</span>
           </div>
           
@@ -28,7 +28,7 @@ export const HeroSection: React.FC = () => {
           <div className={styles.heroButtons}>
             <button className={styles.primaryButton} onClick={() => navigate('/directorio')}>
               Explorar el directorio
-              <span className="material-symbols-outlined icon" style={{ fontSize: '16px' }}>search</span>
+              <span className="material-symbols-outlined icon" style={{ fontSize: '16px' }} translate="no">search</span>
             </button>
             <button className={styles.secondaryButton}>
               Conoce más
