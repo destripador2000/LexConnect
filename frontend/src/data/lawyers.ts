@@ -16,7 +16,7 @@ export const lawyers: Lawyer[] = [
     name: 'Dr. Rafael Gúzman',
     specialty: 'Derecho Civil',
     location: 'Managua, Nicaragua',
-    imageUrl: '/imagen1.jpeg',
+    imageUrl: '/imagen1.webp',
     imageAlt: 'Retrato de abogado',
     enfoqueFoto: 'center 15%'
   },
@@ -26,7 +26,7 @@ export const lawyers: Lawyer[] = [
     name: 'Dra. Massiel Argüello',
     specialty: 'Derecho Penal',
     location: 'León, Nicaragua',
-    imageUrl: '/imagen2.jpeg',
+    imageUrl: '/imagen2.webp',
     imageAlt: 'Retrato de abogado',
     enfoqueFoto: 'center 15%'
   },
@@ -36,7 +36,7 @@ export const lawyers: Lawyer[] = [
     name: 'Dr. Samuel López',
     specialty: 'Derecho Familiar',
     location: 'Managua, Nicaragua',
-    imageUrl: '/imagen4.jpeg',
+    imageUrl: '/imagen4.webp',
     imageAlt: 'Retrato de.abogada',
     enfoqueFoto: 'center 15%'
   },
@@ -46,7 +46,7 @@ export const lawyers: Lawyer[] = [
     name: 'Dra. Ariadna Lacayo',
     specialty: 'Derecho Corporativo',
     location: 'Granada, Nicaragua',
-    imageUrl: '/imagen3.jpeg',
+    imageUrl: '/imagen3.webp',
     imageAlt: 'Retrato de abogado',
     enfoqueFoto: 'center 15%'
   },
@@ -56,7 +56,7 @@ export const lawyers: Lawyer[] = [
     name: 'Dr. David Altamirano',
     specialty: 'Derecho Laboral',
     location: 'Managua, Nicaragua',
-    imageUrl: '/imagen5.jpeg',
+    imageUrl: '/imagen5.webp',
     imageAlt: 'Retrato de.abogado',
     enfoqueFoto: 'center 15%'
   },
@@ -66,7 +66,7 @@ export const lawyers: Lawyer[] = [
     name: 'Dra. Ashley Doña',
     specialty: 'Derecho Mercantil',
     location: 'Masaya, Nicaragua',
-    imageUrl: '/imagen7.jpeg',
+    imageUrl: '/imagen7.webp',
     imageAlt: 'Retrato de abogada',
     enfoqueFoto: 'center 15%'
   },
@@ -76,7 +76,7 @@ export const lawyers: Lawyer[] = [
     name: 'Dr. Fran Martinez',
     specialty: 'Derecho Civil',
     location: 'León, Nicaragua',
-    imageUrl: '/imagen6.jpeg',
+    imageUrl: '/imagen6.webp',
     imageAlt: 'Retrato de.abogado',
     enfoqueFoto: 'center 15%'
   },
@@ -86,7 +86,7 @@ export const lawyers: Lawyer[] = [
     name: 'Dra. Abril Reyes',
     specialty: 'Derecho Penal',
     location: 'Managua, Nicaragua',
-    imageUrl: '/imagen8.jpeg',
+    imageUrl: '/imagen8.webp',
     imageAlt: 'Retrato de.abogada',
     enfoqueFoto: 'center 15%'
   },
